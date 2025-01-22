@@ -1,0 +1,2047 @@
+Mods: {
+	HelpfulNPCs: {
+		Items: {
+			FishCrate: {
+				DisplayName: Fish Crate
+				Tooltip: Right click to receive the current quest fish
+			}
+
+			DazzlingFlower: {
+				DisplayName: Dazzling Flower
+				Tooltip: Keep inside inventory to allow the Environmentalist to move in.
+			}
+
+			GlimmeringStone: {
+				DisplayName: Glimmering Stone
+				Tooltip: Keep inside inventory to allow the Miner to move in.
+			}
+
+			GlisteningGel: {
+				DisplayName: Glistening Gel
+				Tooltip: Keep inside inventory to allow the Hunter to move in.
+			}
+
+			RadiantFish: {
+				DisplayName: Radiant Fish
+				Tooltip: Keep inside inventory to allow the Fisherman to move in.
+			}
+		}
+
+		NPCs: {
+			EnvironmentalistNPC: {
+				DisplayName: Environmentalist
+
+				TownNPCMood: {
+					Content: I am enjoying nature right now.
+					NoHome: As much as I love nature, I also need shelter.
+					LoveSpace: There is plenty of space here for my plants.
+					FarFromHome: I need to get home to continue my research.
+					DislikeCrowded: I can't focus on my research here.
+					HateCrowded: People keep bumping into my plants!
+					LikeBiome: I like {BiomeName}. It always puts me at peace.
+					DislikeBiome: There is barely any flora in {BiomeName}.
+					LikeNPC: "{NPCName} understands my passion for nature."
+					LoveNPC: "{NPCName} is nature incarnate!"
+					DislikeNPC: "{NPCName} prioritizes his profits over the environment!"
+					HateNPC: "{NPCName} destroys everything I try to conserve!"
+					LikeNPC_Princess: "{NPCName} always encourages me on my efforts."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/EnvironmentalistNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.DazzlingFlower.DisplayName} [i:HelpfulNPCs/DazzlingFlower] in your inventory
+			}
+
+			FishermanNPC: {
+				DisplayName: Fisherman
+
+				TownNPCMood: {
+					Content: *Snooze*
+					NoHome: I need a place to fish!
+					LoveSpace: I love it here. Just me and my fishing rod.
+					FarFromHome: I need to get back to fishing.
+					DislikeCrowded: People keep bumping into me while fishing.
+					HateCrowded: There's not enough room to cast a line!
+					LikeBiome: There are so many fish in the sea!
+					DislikeBiome: There's no fish in {BiomeName}!
+					LikeNPC: "{NPCName} is a good pal of mine."
+					LoveNPC: "{NPCName} is such a good kid."
+					DislikeNPC: "{NPCName} tried to upgrade my fishing rod and it blew up."
+					LikeNPC_Princess: I don't mind having {NPCName} around while I'm fishing.
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/FishermanNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.RadiantFish.DisplayName} [i:HelpfulNPCs/RadiantFish] in your inventory
+			}
+
+			HunterNPC: {
+				DisplayName: Hunter
+
+				TownNPCMood: {
+					Content: I'm chillin.
+					NoHome: I need a place to put my gear.
+					LoveSpace: I enjoy the peace and quiet here.
+					FarFromHome: I have strayed too far from home.
+					DislikeCrowded: I can't focus here.
+					HateCrowded: People keep knocking my stuff over!
+					LikeBiome: I enjoy the cold in {BiomeName}.
+					DislikeBiome: I don't have any equipment for {BiomeName}.
+					LikeNPC: "{NPCName}'s venom is very useful."
+					LoveNPC: "{NPCName} and I go way back."
+					DislikeNPC: "{NPCName} is too loud."
+					LikeNPC_Princess: "{NPCName} always knows when to give me space so I can focus."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/HunterNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.GlisteningGel.DisplayName} [i:HelpfulNPCs/GlisteningGel] in your inventory
+			}
+
+			MinerNPC: {
+				DisplayName: Miner
+
+				TownNPCMood: {
+					Content: This brings me back to the good ol' days.
+					NoHome: Where am I supposed to rest?
+					LoveSpace: There is plenty of space for all my tools.
+					FarFromHome: I appear to have dug too far.
+					DislikeCrowded: I keep bumping into people
+					HateCrowded: It's so crowded I can't even leave!
+					LikeBiome: There are so many ores here to mine.
+					DislikeBiome: How am I supposed to mine here?
+					LikeNPC: "{NPCName} is a bit wierd but he's made some useful gadgets for me."
+					LoveNPC: "{NPCName} and I are having a great time together!"
+					DislikeNPC: "{NPCName} keeps trying to trim my beard."
+					LikeNPC_Princess: "{NPCName} helps me get cleaned up after a long mining session."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/MinerNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.GlimmeringStone.DisplayName} [i:HelpfulNPCs/GlimmeringStone] in your inventory
+			}
+
+			Chester.DisplayName: Chester
+		}
+
+		Bestiary: {
+			EnvironmentalistNPC: The Environmentalist loves nature. He sells plants and animals for conservation. You wouldn't do anything bad with them, right?
+			FishermanNPC: The Fisherman loves to fish all day. His connection to the Angler is unkown.
+			HunterNPC: The Hunter strikes fear into the hearts of all monsters. Yes, his parents named him Hunter.
+			MinerNPC: The Miner spends most of his time deep underground. For some reason, he actually enjoys mining.
+		}
+
+		NPCNames: {
+			EnvironmentalistNPC: {
+				Name1: Gregor
+				Name2: Mendal
+				Name3: Theophrastus
+				Name4: Hooke
+			}
+
+			FishermanNPC: {
+				Name1: Ernest
+				Name2: Thomas
+				Name3: Michael
+				Name4: Curt
+			}
+
+			HunterNPC.Name1: Hunter
+
+			MinerNPC: {
+				Name1: Gold
+				Name2: John
+				Name3: Edward
+				Name4: Thomas
+			}
+		}
+
+		Dialogue: {
+			EnvironmentalistNPC: {
+				StandardDialogue1: Hey! Don't step on my plants!
+				StandardDialogue2: There's no such thing as magic beanstalks.
+				StandardDialogue3: My research on Terrarian critters is almost complete.
+				StandardDialogue4: Growing plants takes hardwork and dedication.
+				ChatOption1: Plants
+				ChatOption2: Critters
+			}
+
+			FishermanNPC: {
+				StandardDialogue1: Give a man a fish, and you feed him for a day. Teach a man to fish, and he'll break the game's progression.
+				StandardDialogue2: *Snore*
+				StandardDialogue3: How come sometimes I fish up junk? Who's been throwing things in the water?
+				StandardDialogue4: Back in my day, even wooden crates would have titanium in them!
+				ChatOption1: Fish
+				ChatOption2: Bait
+			}
+
+			HunterNPC: {
+				StandardDialogue1: Quiet, I need to focus.
+				StandardDialogue2: ...
+				StandardDialogue3: Yes, I am Hunter the Hunter.
+				StandardDialogue4: You should be glad that I'm not hunting you.
+				ChatOption1: Monster Drops
+				ChatOption2: Souls/Essences
+				ChatOption3: Ammunition
+				ChatOption4: Change Shop
+			}
+
+			MinerNPC: {
+				StandardDialogue1: There's nothing like a good beer after coming back to the surface!
+				StandardDialogue2: I have no use for these shiny gems and ore, want to buy them off me?
+				StandardDialogue3: What do you mean I shouldn't mine at Y level 11?
+				StandardDialogue4: Diamonds? I'm no expert, but I don't think you can make a sword out of them.
+				ChatOption1: Valuables
+				ChatOption2: Blocks
+			}
+		}
+
+		Conditions.DownedSkeletronOrQueenBee: Mods.HelpfulNPCs.Conditions.DownedSkeletronOrQueenBee
+	}
+
+	UsefulAnHelpfCN: {
+		ForceLocalizations: {
+			UsefulNPCs: {
+				NPCs: {
+					ShootingStar: {
+						AddShops: {
+							3: {
+								NewString: OtherShop
+								OldString: OtherShop
+							}
+
+							2: {
+								NewString: BossEventShop
+								OldString: BossEventShop
+							}
+
+							1: {
+								NewString: EnvShop
+								OldString: EnvShop
+							}
+						}
+
+						SetNPCNameList: {
+							15: {
+								NewString: Blank
+								OldString: Blank
+							}
+
+							14: {
+								NewString: Elton
+								OldString: Elton
+							}
+
+							13: {
+								NewString: Aphylon
+								OldString: Aphylon
+							}
+
+							12: {
+								NewString: Appy
+								OldString: Appy
+							}
+
+							11: {
+								NewString: Aphy
+								OldString: Aphy
+							}
+
+							10: {
+								NewString: Lass
+								OldString: Lass
+							}
+
+							1: {
+								NewString: Noah
+								OldString: Noah
+							}
+
+							9: {
+								NewString: Oskar
+								OldString: Oskar
+							}
+
+							8: {
+								NewString: Ron
+								OldString: Ron
+							}
+
+							7: {
+								NewString: Lonely
+								OldString: Lonely
+							}
+
+							6: {
+								NewString: Looni
+								OldString: Looni
+							}
+
+							5: {
+								NewString: Looney
+								OldString: Looney
+							}
+
+							4: {
+								NewString: Lena
+								OldString: Lena
+							}
+
+							3: {
+								NewString: Akkty
+								OldString: Akkty
+							}
+
+							2: {
+								NewString: Newton
+								OldString: Newton
+							}
+						}
+
+						GetChat: {
+							17: {
+								NewString: I heard that a good enough guitarist can literally call upon the stars. I think it's just a rumor.
+								OldString: I heard that a good enough guitarist can literally call upon the stars. I think it's just a rumor.
+							}
+
+							16: {
+								NewString: The guitar that can call upon the stars is actually real? Can you play it for me?
+								OldString: The guitar that can call upon the stars is actually real? Can you play it for me?
+							}
+
+							15: {
+								NewString: According to a legend, there is a legendary guitar that can be used as a hammer? What kind of guitar is that?
+								OldString: According to a legend, there is a legendary guitar that can be used as a hammer? What kind of guitar is that?
+							}
+
+							14: {
+								NewString: Did you actually get the legendary ham-axe-guitar thingy? That's so cool!
+								OldString: Did you actually get the legendary ham-axe-guitar thingy? That's so cool!
+							}
+
+							13: {
+								NewString: I can only sell music boxes but not the instruments. I have to use them myself!
+								OldString: I can only sell music boxes but not the instruments. I have to use them myself!
+							}
+
+							12: {
+								NewString: I've lost my sheets. Well, I can just make another pile.
+								OldString: I've lost my sheets. Well, I can just make another pile.
+							}
+
+							11: {
+								NewString: (She seems to be too focused on the music)
+								OldString: (She seems to be too focused on the music)
+							}
+
+							10: {
+								NewString: You seem to have a great taste in music.
+								OldString: You seem to have a great taste in music.
+							}
+
+							1: {
+								NewString: Maybe I can make the G dissapear from grave if I play music real loud.
+								OldString: Maybe I can make the G dissapear from grave if I play music real loud.
+							}
+
+							9: {
+								NewString: *thunder* W...What? What did you say?
+								OldString: *thunder* W...What? What did you say?
+							}
+
+							8: {
+								NewString: I can't record anything right now...
+								OldString: I can't record anything right now...
+							}
+
+							7: {
+								NewString: Wind sounds quite scary, but the music does not!
+								OldString: Wind sounds quite scary, but the music does not!
+							}
+
+							6: {
+								NewString: I don't like that I have to close the windows when it's windy.
+								OldString: I don't like that I have to close the windows when it's windy.
+							}
+
+							5: {
+								NewString: *gasp* I left my books outside!
+								OldString: *gasp* I left my books outside!
+							}
+
+							4: {
+								NewString: The sound of rain makes me feel comfortable.
+								OldString: The sound of rain makes me feel comfortable.
+							}
+
+							3: {
+								NewString: I spend last night making a new party music for THIS party.
+								OldString: I spend last night making a new party music for THIS party.
+							}
+
+							2: {
+								NewString: I said "RAVE" not "GRAVE"!!
+								OldString: I said "RAVE" not "GRAVE"!!
+							}
+						}
+
+						SetChatButtons: {
+							4: {
+								NewString: Cycle Shop
+								OldString: Cycle Shop
+							}
+
+							3: {
+								NewString: Shop(Otherworld)
+								OldString: Shop(Otherworld)
+							}
+
+							2: {
+								NewString: Shop(Boss/Event)
+								OldString: Shop(Boss/Event)
+							}
+
+							1: {
+								NewString: Shop(Environment)
+								OldString: Shop(Environment)
+							}
+						}
+
+						OnChatButtonClicked: {
+							3: {
+								NewString: OtherShop
+								OldString: OtherShop
+							}
+
+							2: {
+								NewString: BossEventShop
+								OldString: BossEventShop
+							}
+
+							1: {
+								NewString: EnvShop
+								OldString: EnvShop
+							}
+						}
+
+						SetBestiary: {
+							1: {
+								NewString: Fascinated by music, the Shooting Star is always ready to explore new world to record the sound of them.
+								OldString: Fascinated by music, the Shooting Star is always ready to explore new world to record the sound of them.
+							}
+						}
+
+						HitEffect: {
+							4: {
+								NewString: ShootingStarGore4
+								OldString: ShootingStarGore4
+							}
+
+							3: {
+								NewString: ShootingStarGore3
+								OldString: ShootingStarGore3
+							}
+
+							2: {
+								NewString: ShootingStarGore2
+								OldString: ShootingStarGore2
+							}
+
+							1: {
+								NewString: ShootingStarGore1
+								OldString: ShootingStarGore1
+							}
+						}
+					}
+
+					OldChampion: {
+						AddShops: {
+							2: {
+								NewString: RareDropShop
+								OldString: RareDropShop
+							}
+
+							1: {
+								NewString: SummShop
+								OldString: SummShop
+							}
+						}
+
+						OnChatButtonClicked: {
+							2: {
+								NewString: RareDropShop
+								OldString: RareDropShop
+							}
+
+							1: {
+								NewString: SummShop
+								OldString: SummShop
+							}
+						}
+
+						SetChatButtons: {
+							2: {
+								NewString: Shop(Rare Drops)
+								OldString: Shop(Rare Drops)
+							}
+
+							1: {
+								NewString: Shop(Summons)
+								OldString: Shop(Summons)
+							}
+						}
+
+						SetNPCNameList: {
+							1: {
+								NewString: Louis
+								OldString: Louis
+							}
+						}
+
+						GetChat: {
+							17: {
+								NewString: " always tries to confuse me with her tech talk. Like, stop trying to explain how a TV remote works, you know that's too complicated for me!"
+								OldString: " always tries to confuse me with her tech talk. Like, stop trying to explain how a TV remote works, you know that's too complicated for me!"
+							}
+
+							16: {
+								NewString: You kids and your Luminite weapons got nothing on my Night's Edge. What? Oh shut up about the numbers, you know that's too high for me.
+								OldString: You kids and your Luminite weapons got nothing on my Night's Edge. What? Oh shut up about the numbers, you know that's too high for me.
+							}
+
+							15: {
+								NewString: I'm not THAT old.
+								OldString: I'm not THAT old.
+							}
+
+							14: {
+								NewString: I know i look younger than i am. I'll tell you my secret, it's called "familiar wig".
+								OldString: I know i look younger than i am. I'll tell you my secret, it's called "familiar wig".
+							}
+
+							13: {
+								NewString: Ah good ol' times. Oh, do you wanna buy something?
+								OldString: Ah good ol' times. Oh, do you wanna buy something?
+							}
+
+							12: {
+								NewString: When I was at your age.. Wait, come back!
+								OldString: When I was at your age.. Wait, come back!
+							}
+
+							11: {
+								NewString: Hey kid, do you wanna buy some illegal summons?
+								OldString: Hey kid, do you wanna buy some illegal summons?
+							}
+
+							10: {
+								NewString: Don't ask me how I got my hands on these.
+								OldString: Don't ask me how I got my hands on these.
+							}
+
+							1: {
+								NewString: Are you trying to say I belong here because I'm old?
+								OldString: Are you trying to say I belong here because I'm old?
+							}
+
+							9: {
+								NewString: Get stronger so I can sell more expensive Items to you.
+								OldString: Get stronger so I can sell more expensive Items to you.
+							}
+
+							8: {
+								NewString: Weather like this makes me want to down a bottle of whiskey.
+								OldString: Weather like this makes me want to down a bottle of whiskey.
+							}
+
+							7: {
+								NewString: I have been hit by lightnings 3 times, but I survived.
+								OldString: I have been hit by lightnings 3 times, but I survived.
+							}
+
+							6: {
+								NewString: When I was at your age, I ran around without a shirt in this weather.
+								OldString: When I was at your age, I ran around without a shirt in this weather.
+							}
+
+							5: {
+								NewString: Me? Cold? No, I just have something to do in my house.
+								OldString: Me? Cold? No, I just have something to do in my house.
+							}
+
+							4: {
+								NewString: Scram if you're not buying anthing!
+								OldString: Scram if you're not buying anthing!
+							}
+
+							3: {
+								NewString: Don't bother me right now!
+								OldString: Don't bother me right now!
+							}
+
+							2: {
+								NewString: Those are people who told me I lived too dangerously. And look at me alive and well.
+								OldString: Those are people who told me I lived too dangerously. And look at me alive and well.
+							}
+						}
+
+						HitEffect: {
+							4: {
+								NewString: OldChampionGore4
+								OldString: OldChampionGore4
+							}
+
+							3: {
+								NewString: OldChampionGore3
+								OldString: OldChampionGore3
+							}
+
+							2: {
+								NewString: OldChampionGore2
+								OldString: OldChampionGore2
+							}
+
+							1: {
+								NewString: OldChampionGore1
+								OldString: OldChampionGore1
+							}
+						}
+
+						SetBestiary: {
+							1: {
+								NewString: Having played Terraria for over 10 years, the Old Champion sells various items that he grinded so mindlessly in the past years.
+								OldString: Having played Terraria for over 10 years, the Old Champion sells various items that he grinded so mindlessly in the past years.
+							}
+						}
+					}
+
+					Martian: {
+						AddShops: {
+							2: {
+								NewString: ExpertShop
+								OldString: ExpertShop
+							}
+
+							1: {
+								NewString: MountShop
+								OldString: MountShop
+							}
+						}
+
+						SetChatButtons: {
+							2: {
+								NewString: Shop(Expert Drops)
+								OldString: Shop(Expert Drops)
+							}
+
+							1: {
+								NewString: Shop(Mounts & Keys)
+								OldString: Shop(Mounts & Keys)
+							}
+						}
+
+						OnChatButtonClicked: {
+							2: {
+								NewString: MountShop
+								OldString: MountShop
+							}
+
+							1: {
+								NewString: ExpertShop
+								OldString: ExpertShop
+							}
+						}
+
+						SetNPCNameList: {
+							1: {
+								NewString: Torako
+								OldString: Torako
+							}
+						}
+
+						GetChat: {
+							18: {
+								NewString: " knows how to please Ares?"
+								OldString: " knows how to please Ares?"
+							}
+
+							17: {
+								NewString: "Do you think "
+								OldString: "Do you think "
+							}
+
+							16: {
+								NewString: I got to say though, mouths still freak me out.
+								OldString: I got to say though, mouths still freak me out.
+							}
+
+							15: {
+								NewString: I'm not that bad, i've only partaken in four abductions so far. And considering i was forgotten here highly reduces the chance to increase that number.
+								OldString: I'm not that bad, i've only partaken in four abductions so far. And considering i was forgotten here highly reduces the chance to increase that number.
+							}
+
+							14: {
+								NewString: The others didn't deserve my genius anyway.
+								OldString: The others didn't deserve my genius anyway.
+							}
+
+							13: {
+								NewString: "'s Gorbledden? It looks beautiful."
+								OldString: "'s Gorbledden? It looks beautiful."
+							}
+
+							12: {
+								NewString: "Have you seen "
+								OldString: "Have you seen "
+							}
+
+							11: {
+								NewString: .... Oops, translater malfunctioned.
+								OldString: .... Oops, translater malfunctioned.
+							}
+
+							10: {
+								NewString: "Hey, have you "
+								OldString: "Hey, have you "
+							}
+
+							1: {
+								NewString: These specimens are too old for any experiments.
+								OldString: These specimens are too old for any experiments.
+							}
+
+							9: {
+								NewString: What kind of unholy ritual is this? What? This is normal?
+								OldString: What kind of unholy ritual is this? What? This is normal?
+							}
+
+							8: {
+								NewString: I got to say though, storms still freak me out.
+								OldString: I got to say though, storms still freak me out.
+							}
+
+							7: {
+								NewString: At Mars, this kind of wind is normal.
+								OldString: At Mars, this kind of wind is normal.
+							}
+
+							6: {
+								NewString: This wind makes me homesick...
+								OldString: This wind makes me homesick...
+							}
+
+							5: {
+								NewString: Do humans also need to get hit by water to grow?
+								OldString: Do humans also need to get hit by water to grow?
+							}
+
+							4: {
+								NewString: Why are water drops falling from the sky?
+								OldString: Why are water drops falling from the sky?
+							}
+
+							3: {
+								NewString: Humans seem to have weekly quota for happiness.
+								OldString: Humans seem to have weekly quota for happiness.
+							}
+
+							2: {
+								NewString: Are you gonna use those specimens? Can I use them?
+								OldString: Are you gonna use those specimens? Can I use them?
+							}
+						}
+
+						HitEffect: {
+							4: {
+								NewString: MartianGore4
+								OldString: MartianGore4
+							}
+
+							3: {
+								NewString: MartianGore3
+								OldString: MartianGore3
+							}
+
+							2: {
+								NewString: MartianGore2
+								OldString: MartianGore2
+							}
+
+							1: {
+								NewString: MartianGore1
+								OldString: MartianGore1
+							}
+						}
+
+						SetBestiary: {
+							1: {
+								NewString: Exiled from the rest of martians for being a dork, the Martian sells rare items that it collected from specimens.
+								OldString: Exiled from the rest of martians for being a dork, the Martian sells rare items that it collected from specimens.
+							}
+						}
+					}
+
+					Hephaestus: {
+						AddShops: {
+							3: {
+								NewString: DownedMechBossAny2
+								OldString: DownedMechBossAny2
+							}
+
+							2: {
+								NewString: TreasureShop
+								OldString: TreasureShop
+							}
+
+							1: {
+								NewString: OreShop
+								OldString: OreShop
+							}
+						}
+
+						GetChat: {
+							19: {
+								NewString: % of my power. You can't handle even the 10% of my power, so lucky for you.
+								OldString: % of my power. You can't handle even the 10% of my power, so lucky for you.
+							}
+
+							18: {
+								NewString: "I'm only using "
+								OldString: "I'm only using "
+							}
+
+							17: {
+								NewString: sounds like a follower of Ares. I don't really like to get involved in this.
+								OldString: sounds like a follower of Ares. I don't really like to get involved in this.
+							}
+
+							16: {
+								NewString: "This "
+								OldString: "This "
+							}
+
+							15: {
+								NewString: People always tell me that I look better than they thought. A creative way to compliment a god.
+								OldString: People always tell me that I look better than they thought. A creative way to compliment a god.
+							}
+
+							14: {
+								NewString: A god is only as good as his creations.
+								OldString: A god is only as good as his creations.
+							}
+
+							13: {
+								NewString: I only sell these for my own amusement.
+								OldString: I only sell these for my own amusement.
+							}
+
+							12: {
+								NewString: Oh yes, I am very real.
+								OldString: Oh yes, I am very real.
+							}
+
+							11: {
+								NewString: Don't worry, the lightning is just a purely visual effect.
+								OldString: Don't worry, the lightning is just a purely visual effect.
+							}
+
+							10: {
+								NewString: This is just raining and windy combined and nothing more.
+								OldString: This is just raining and windy combined and nothing more.
+							}
+
+							1: {
+								NewString: A place to memoir the heros. Interesting.
+								OldString: A place to memoir the heros. Interesting.
+							}
+
+							9: {
+								NewString: Hermes? Was he here too?
+								OldString: Hermes? Was he here too?
+							}
+
+							8: {
+								NewString: How can you move exactly the same when it's this windy outside?
+								OldString: How can you move exactly the same when it's this windy outside?
+							}
+
+							7: {
+								NewString: I saw your raindancing and thought it was funny, so here it is.
+								OldString: I saw your raindancing and thought it was funny, so here it is.
+							}
+
+							6: {
+								NewString: " minute(s)"
+								OldString: " minute(s)"
+							}
+
+							5: {
+								NewString: " hour(s) and "
+								OldString: " hour(s) and "
+							}
+
+							4: {
+								NewString: "You want to stop the rain? Too bad. I can start it, but I can't stop it. But it'll stop in "
+								OldString: "You want to stop the rain? Too bad. I can start it, but I can't stop it. But it'll stop in "
+							}
+
+							3: {
+								NewString: This cake reminds me of nectar. How can a mortal make such a delicacy?
+								OldString: This cake reminds me of nectar. How can a mortal make such a delicacy?
+							}
+
+							2: {
+								NewString: Mortals are lucky to have death as a right.
+								OldString: Mortals are lucky to have death as a right.
+							}
+						}
+
+						SetChatButtons: {
+							2: {
+								NewString: Shop(Treasures)
+								OldString: Shop(Treasures)
+							}
+
+							1: {
+								NewString: Shop(Ores)
+								OldString: Shop(Ores)
+							}
+						}
+
+						SetNPCNameList: {
+							1: {
+								NewString: Hephaestus
+								OldString: Hephaestus
+							}
+						}
+
+						OnChatButtonClicked: {
+							2: {
+								NewString: OreShop
+								OldString: OreShop
+							}
+
+							1: {
+								NewString: TreasureShop
+								OldString: TreasureShop
+							}
+						}
+
+						HitEffect: {
+							1: {
+								NewString: DivineOrb
+								OldString: DivineOrb
+							}
+						}
+
+						SetBestiary: {
+							1: {
+								NewString: The Hephaestus descended from the Olympus to watch the mortals use his creations.
+								OldString: The Hephaestus descended from the Olympus to watch the mortals use his creations.
+							}
+						}
+					}
+
+					Dealer: {
+						AddShops: {
+							6: {
+								NewString: Conditions.NoAteLoaf
+								OldString: Conditions.NoAteLoaf
+							}
+
+							5: {
+								NewString: DownedPreHardmodeBossAny
+								OldString: DownedPreHardmodeBossAny
+							}
+
+							4: {
+								NewString: SantaShop
+								OldString: SantaShop
+							}
+
+							3: {
+								NewString: SMCShop
+								OldString: SMCShop
+							}
+
+							2: {
+								NewString: TMVShop
+								OldString: TMVShop
+							}
+
+							1: {
+								NewString: TMShop
+								OldString: TMShop
+							}
+						}
+
+						OnChatButtonClicked: {
+							4: {
+								NewString: SantaShop
+								OldString: SantaShop
+							}
+
+							3: {
+								NewString: SMCShop
+								OldString: SMCShop
+							}
+
+							2: {
+								NewString: TMVShop
+								OldString: TMVShop
+							}
+
+							1: {
+								NewString: TMShop
+								OldString: TMShop
+							}
+						}
+
+						SetChatButtons: {
+							6: {
+								NewString: Cycle Shop
+								OldString: Cycle Shop
+							}
+
+							5: {
+								NewString: Catastrophic Faliure
+								OldString: Catastrophic Faliure
+							}
+
+							4: {
+								NewString: Shop(Santa Claus)
+								OldString: Shop(Santa Claus)
+							}
+
+							3: {
+								NewString: Shop(Skel. Merch. & Crates)
+								OldString: Shop(Skel. Merch. & Crates)
+							}
+
+							2: {
+								NewString: Shop(T. Merch. Vanity)
+								OldString: Shop(T. Merch. Vanity)
+							}
+
+							1: {
+								NewString: Shop(T. Merch.)
+								OldString: Shop(T. Merch.)
+							}
+						}
+
+						SetNPCNameList: {
+							5: {
+								NewString: Antonio
+								OldString: Antonio
+							}
+
+							4: {
+								NewString: Bugs
+								OldString: Bugs
+							}
+
+							3: {
+								NewString: Vincent
+								OldString: Vincent
+							}
+
+							2: {
+								NewString: Capone
+								OldString: Capone
+							}
+
+							1: {
+								NewString: Vito
+								OldString: Vito
+							}
+						}
+
+						GetChat: {
+							16: {
+								NewString: Can love... make me want to stay?
+								OldString: Can love... make me want to stay?
+							}
+
+							15: {
+								NewString: Hey, kid, you wanna buy some weapons?
+								OldString: Hey, kid, you wanna buy some weapons?
+							}
+
+							14: {
+								NewString: If you touch, you buy.
+								OldString: If you touch, you buy.
+							}
+
+							13: {
+								NewString: Make it quick. I have to "restock"
+								OldString: Make it quick. I have to "restock"
+							}
+
+							12: {
+								NewString: I've got this stuffs from... somewhere. Do you wanna buy or not?
+								OldString: I've got this stuffs from... somewhere. Do you wanna buy or not?
+							}
+
+							11: {
+								NewString: No refund. Never.
+								OldString: No refund. Never.
+							}
+
+							10: {
+								NewString: I'd rather just stay indoors.
+								OldString: I'd rather just stay indoors.
+							}
+
+							1: {
+								NewString: Don't make me a grave when I die. I don't deserve it.
+								OldString: Don't make me a grave when I die. I don't deserve it.
+							}
+
+							9: {
+								NewString: Storm? Afraid? I just like staying indoors when it's storming.
+								OldString: Storm? Afraid? I just like staying indoors when it's storming.
+							}
+
+							8: {
+								NewString: Death is like the wind - always by my side.
+								OldString: Death is like the wind - always by my side.
+							}
+
+							7: {
+								NewString: I wish someone would make me a warm soup.
+								OldString: I wish someone would make me a warm soup.
+							}
+
+							6: {
+								NewString: " seems to be too lost in his thought.)"
+								OldString: " seems to be too lost in his thought.)"
+							}
+
+							5: {
+								NewString: (
+								OldString: (
+							}
+
+							4: {
+								NewString: Rain makes my wounds hurt more.
+								OldString: Rain makes my wounds hurt more.
+							}
+
+							3: {
+								NewString: Parties are great chance to collect things.
+								OldString: Parties are great chance to collect things.
+							}
+
+							2: {
+								NewString: Hey I know that name... Oh.
+								OldString: Hey I know that name... Oh.
+							}
+						}
+
+						HitEffect: {
+							4: {
+								NewString: BanditGore4
+								OldString: BanditGore4
+							}
+
+							3: {
+								NewString: BanditGore3
+								OldString: BanditGore3
+							}
+
+							2: {
+								NewString: BanditGore2
+								OldString: BanditGore2
+							}
+
+							1: {
+								NewString: BanditGore1
+								OldString: BanditGore1
+							}
+						}
+
+						SetBestiary: {
+							1: {
+								NewString: With a questionable past, the Dealer sells goods with questionable sources that may or may not involve violence.
+								OldString: With a questionable past, the Dealer sells goods with questionable sources that may or may not involve violence.
+							}
+						}
+					}
+
+					Builder: {
+						AddShops: {
+							4: {
+								NewString: TMShop
+								OldString: TMShop
+							}
+
+							3: {
+								NewString: FurnShop
+								OldString: FurnShop
+							}
+
+							2: {
+								NewString: RareShop
+								OldString: RareShop
+							}
+
+							1: {
+								NewString: CommShop
+								OldString: CommShop
+							}
+						}
+
+						OnChatButtonClicked: {
+							4: {
+								NewString: TMShop
+								OldString: TMShop
+							}
+
+							3: {
+								NewString: FurnShop
+								OldString: FurnShop
+							}
+
+							2: {
+								NewString: RareShop
+								OldString: RareShop
+							}
+
+							1: {
+								NewString: CommShop
+								OldString: CommShop
+							}
+						}
+
+						SetChatButtons: {
+							6: {
+								NewString: Cycle Shop
+								OldString: Cycle Shop
+							}
+
+							5: {
+								NewString: Catastrophic Faliure
+								OldString: Catastrophic Faliure
+							}
+
+							4: {
+								NewString: Shop(T. merch.)
+								OldString: Shop(T. merch.)
+							}
+
+							3: {
+								NewString: Shop(Furniture)
+								OldString: Shop(Furniture)
+							}
+
+							2: {
+								NewString: Shop(Rare Blocks)
+								OldString: Shop(Rare Blocks)
+							}
+
+							1: {
+								NewString: Shop(Common Blocks)
+								OldString: Shop(Common Blocks)
+							}
+						}
+
+						SetNPCNameList: {
+							1: {
+								NewString: Marco
+								OldString: Marco
+							}
+						}
+
+						GetChat: {
+							15: {
+								NewString: House means more than just a place to live.
+								OldString: House means more than just a place to live.
+							}
+
+							14: {
+								NewString: You really need a lecture in architecture.
+								OldString: You really need a lecture in architecture.
+							}
+
+							13: {
+								NewString: Don't worry about me running out of blocks. I can make them out of thin air.
+								OldString: Don't worry about me running out of blocks. I can make them out of thin air.
+							}
+
+							12: {
+								NewString: "My dirt blocks are actually extra dirty unlike that of "
+								OldString: "My dirt blocks are actually extra dirty unlike that of "
+							}
+
+							11: {
+								NewString: I used to be a adveturer like you, then I took an arrow in my knee.
+								OldString: I used to be a adveturer like you, then I took an arrow in my knee.
+							}
+
+							10: {
+								NewString: You call this house? I've seen much better.
+								OldString: You call this house? I've seen much better.
+							}
+
+							1: {
+								NewString: Why are you wasting this precious piece of land for a graveyard?
+								OldString: Why are you wasting this precious piece of land for a graveyard?
+							}
+
+							9: {
+								NewString: I just finished patching up the window so it won't break.
+								OldString: I just finished patching up the window so it won't break.
+							}
+
+							8: {
+								NewString: Are you sure this house can stand against this storm?
+								OldString: Are you sure this house can stand against this storm?
+							}
+
+							7: {
+								NewString: What kind of insulator did you use for this house? You know what, nevermind.
+								OldString: What kind of insulator did you use for this house? You know what, nevermind.
+							}
+
+							6: {
+								NewString: This area has more wind than average.
+								OldString: This area has more wind than average.
+							}
+
+							5: {
+								NewString: Great, it's gonna take another week for the concrete to dry.
+								OldString: Great, it's gonna take another week for the concrete to dry.
+							}
+
+							4: {
+								NewString: You don't have a rainwater collector?
+								OldString: You don't have a rainwater collector?
+							}
+
+							3: {
+								NewString: I thought parties had more well-thought out decorations.
+								OldString: I thought parties had more well-thought out decorations.
+							}
+
+							2: {
+								NewString: You can learn a lot about the dead from their grave.
+								OldString: You can learn a lot about the dead from their grave.
+							}
+						}
+
+						HitEffect: {
+							4: {
+								NewString: BuilderGore4
+								OldString: BuilderGore4
+							}
+
+							3: {
+								NewString: BuilderGore3
+								OldString: BuilderGore3
+							}
+
+							2: {
+								NewString: BuilderGore2
+								OldString: BuilderGore2
+							}
+
+							1: {
+								NewString: BuilderGore1
+								OldString: BuilderGore1
+							}
+						}
+
+						SetBestiary: {
+							1: {
+								NewString: The Builder is a snarky architect who isn't afraid of criticizing anything, including things outside of his expertise
+								OldString: The Builder is a snarky architect who isn't afraid of criticizing anything, including things outside of his expertise
+							}
+						}
+					}
+
+					Alchemist: {
+						AddShops: {
+							6: {
+								NewString: MultiplayerClient
+								OldString: MultiplayerClient
+							}
+
+							5: {
+								NewString: CorruptionOrHardmode
+								OldString: CorruptionOrHardmode
+							}
+
+							4: {
+								NewString: CrimsonOrHardmode
+								OldString: CrimsonOrHardmode
+							}
+
+							3: {
+								NewString: UtilShop
+								OldString: UtilShop
+							}
+
+							2: {
+								NewString: BattShop
+								OldString: BattShop
+							}
+
+							1: {
+								NewString: IngrShop
+								OldString: IngrShop
+							}
+						}
+
+						OnChatButtonClicked: {
+							3: {
+								NewString: UtilShop
+								OldString: UtilShop
+							}
+
+							2: {
+								NewString: BattShop
+								OldString: BattShop
+							}
+
+							1: {
+								NewString: IngrShop
+								OldString: IngrShop
+							}
+						}
+
+						SetChatButtons: {
+							5: {
+								NewString: Cycle Shop
+								OldString: Cycle Shop
+							}
+
+							4: {
+								NewString: Catastrophic Faliure
+								OldString: Catastrophic Faliure
+							}
+
+							3: {
+								NewString: Shop(Utility Potions)
+								OldString: Shop(Utility Potions)
+							}
+
+							2: {
+								NewString: Shop(Battle Potions)
+								OldString: Shop(Battle Potions)
+							}
+
+							1: {
+								NewString: Shop(Ingredients)
+								OldString: Shop(Ingredients)
+							}
+						}
+
+						SetNPCNameList: {
+							1: {
+								NewString: Willy
+								OldString: Willy
+							}
+						}
+
+						GetChat: {
+							19: {
+								NewString: I swear I saw one of my herbs blooming, but it's dormant now.
+								OldString: I swear I saw one of my herbs blooming, but it's dormant now.
+							}
+
+							18: {
+								NewString: It's awfully eerie now. Maybe plants can feel this too?
+								OldString: It's awfully eerie now. Maybe plants can feel this too?
+							}
+
+							17: {
+								NewString: My fireblossoms are not blooming because of this rain!
+								OldString: My fireblossoms are not blooming because of this rain!
+							}
+
+							16: {
+								NewString: I was visiting jungle yesterday and saw a beautiful glowing flower.
+								OldString: I was visiting jungle yesterday and saw a beautiful glowing flower.
+							}
+
+							15: {
+								NewString: I think my herbs are growing well.
+								OldString: I think my herbs are growing well.
+							}
+
+							14: {
+								NewString: You killed the king of the plants? I don't think it's a king nor a plant.
+								OldString: You killed the king of the plants? I don't think it's a king nor a plant.
+							}
+
+							13: {
+								NewString: If you are worrying about running out of potions, you can just not use them.
+								OldString: If you are worrying about running out of potions, you can just not use them.
+							}
+
+							12: {
+								NewString: Do you have any spare flower pots? Not that I can use them.
+								OldString: Do you have any spare flower pots? Not that I can use them.
+							}
+
+							11: {
+								NewString: ", You cannot handle my potions... Actually, nevermind, you've got this."
+								OldString: ", You cannot handle my potions... Actually, nevermind, you've got this."
+							}
+
+							10: {
+								NewString: "My potions would kill you "
+								OldString: "My potions would kill you "
+							}
+
+							1: {
+								NewString: Salute to the dead, but not forgotten.
+								OldString: Salute to the dead, but not forgotten.
+							}
+
+							9: {
+								NewString: I'm worried about my plants getting hit by a lightning.
+								OldString: I'm worried about my plants getting hit by a lightning.
+							}
+
+							8: {
+								NewString: Do you think I can make a potion to make you immune to lightning? No?
+								OldString: Do you think I can make a potion to make you immune to lightning? No?
+							}
+
+							7: {
+								NewString: I saw a really angry dandelion once. How can a plant be so angry?
+								OldString: I saw a really angry dandelion once. How can a plant be so angry?
+							}
+
+							6: {
+								NewString: *sniff* I'm actually little allergic to pollen...
+								OldString: *sniff* I'm actually little allergic to pollen...
+							}
+
+							5: {
+								NewString: When it rains in desert, it's the plants' chance to bloom and spread its seeds.
+								OldString: When it rains in desert, it's the plants' chance to bloom and spread its seeds.
+							}
+
+							4: {
+								NewString: Some plants need more water than others.
+								OldString: Some plants need more water than others.
+							}
+
+							3: {
+								NewString: I made a brand new potion to make you enjoy the party more.
+								OldString: I made a brand new potion to make you enjoy the party more.
+							}
+
+							2: {
+								NewString: I could've saved more people with my potions...
+								OldString: I could've saved more people with my potions...
+							}
+						}
+
+						HitEffect: {
+							4: {
+								NewString: MagicalMerchantGore4
+								OldString: MagicalMerchantGore4
+							}
+
+							3: {
+								NewString: MagicalMerchantGore3
+								OldString: MagicalMerchantGore3
+							}
+
+							2: {
+								NewString: MagicalMerchantGore2
+								OldString: MagicalMerchantGore2
+							}
+
+							1: {
+								NewString: MagicalMerchantGore1
+								OldString: MagicalMerchantGore1
+							}
+						}
+
+						SetBestiary: {
+							1: {
+								NewString: The Alchemist grows various herbs to make potions for you to buy. Spending much time with plants taught him to be calm and insightful.
+								OldString: The Alchemist grows various herbs to make potions for you to buy. Spending much time with plants taught him to be calm and insightful.
+							}
+						}
+					}
+				}
+
+				UsefulSystem: {
+					LoadWorldData: {
+						1: {
+							NewString: IsShootingStarUnlocked
+							OldString: IsShootingStarUnlocked
+						}
+					}
+
+					SaveWorldData: {
+						1: {
+							NewString: IsShootingStarUnlocked
+							OldString: IsShootingStarUnlocked
+						}
+					}
+				}
+			}
+
+			HelpfulNPCs: {
+				Items: {
+					FishCrate: {
+						PreDrawInWorld: {
+							1: {
+								NewString: Terraria/Images/Item_
+								OldString: Terraria/Images/Item_
+							}
+						}
+
+						PreDrawInInventory: {
+							1: {
+								NewString: Terraria/Images/Item_
+								OldString: Terraria/Images/Item_
+							}
+						}
+					}
+				}
+
+				MinerNPC: {
+					DrawTownAttackSwing: {
+						1: {
+							NewString: Terraria/Images/Item_
+							OldString: Terraria/Images/Item_
+						}
+					}
+
+					AddShops: {
+						2: {
+							NewString: Blocks
+							OldString: Blocks
+						}
+
+						1: {
+							NewString: Valuables
+							OldString: Valuables
+						}
+					}
+
+					OnChatButtonClicked: {
+						2: {
+							NewString: Blocks
+							OldString: Blocks
+						}
+
+						1: {
+							NewString: Valuables
+							OldString: Valuables
+						}
+					}
+
+					SetChatButtons: {
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.MinerNPC.ChatOption2
+							OldString: Mods.HelpfulNPCs.Dialogue.MinerNPC.ChatOption2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.MinerNPC.ChatOption1
+							OldString: Mods.HelpfulNPCs.Dialogue.MinerNPC.ChatOption1
+						}
+					}
+
+					GetChat: {
+						4: {
+							NewString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue4
+							OldString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue3
+							OldString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue2
+							OldString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue1
+							OldString: Mods.HelpfulNPCs.Dialogue.MinerNPC.StandardDialogue1
+						}
+					}
+
+					SetNPCNameList: {
+						4: {
+							NewString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name4
+							OldString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name3
+							OldString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name2
+							OldString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name1
+							OldString: Mods.HelpfulNPCs.NPCNames.MinerNPC.Name1
+						}
+					}
+
+					SetBestiary: {
+						1: {
+							NewString: Mods.HelpfulNPCs.Bestiary.MinerNPC
+							OldString: Mods.HelpfulNPCs.Bestiary.MinerNPC
+						}
+					}
+
+					get_Texture: {
+						1: {
+							NewString: HelpfulNPCs/MinerNPC
+							OldString: HelpfulNPCs/MinerNPC
+						}
+					}
+				}
+
+				HunterNPC: {
+					AddShops: {
+						4: {
+							NewString: Ammo
+							OldString: Ammo
+						}
+
+						3: {
+							NewString: Souls
+							OldString: Souls
+						}
+
+						2: {
+							NewString: Drops
+							OldString: Drops
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Conditions.DownedSkeletronOrQueenBee
+							OldString: Mods.HelpfulNPCs.Conditions.DownedSkeletronOrQueenBee
+						}
+					}
+
+					OnChatButtonClicked: {
+						3: {
+							NewString: Ammo
+							OldString: Ammo
+						}
+
+						2: {
+							NewString: Souls
+							OldString: Souls
+						}
+
+						1: {
+							NewString: Drops
+							OldString: Drops
+						}
+					}
+
+					SetChatButtons: {
+						4: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption4
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption3
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption2
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption1
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.ChatOption1
+						}
+					}
+
+					GetChat: {
+						4: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue4
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue3
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue2
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue1
+							OldString: Mods.HelpfulNPCs.Dialogue.HunterNPC.StandardDialogue1
+						}
+					}
+
+					SetNPCNameList: {
+						1: {
+							NewString: Mods.HelpfulNPCs.NPCNames.HunterNPC.Name1
+							OldString: Mods.HelpfulNPCs.NPCNames.HunterNPC.Name1
+						}
+					}
+
+					SetBestiary: {
+						1: {
+							NewString: Mods.HelpfulNPCs.Bestiary.HunterNPC
+							OldString: Mods.HelpfulNPCs.Bestiary.HunterNPC
+						}
+					}
+
+					get_Texture: {
+						1: {
+							NewString: HelpfulNPCs/HunterNPC
+							OldString: HelpfulNPCs/HunterNPC
+						}
+					}
+				}
+
+				HelpfulNPCs: {
+					PostSetupContent: {
+						4: {
+							NewString: ReplaceExtraButtonIcon
+							OldString: ReplaceExtraButtonIcon
+						}
+
+						3: {
+							NewString: Terraria/Images/Item_
+							OldString: Terraria/Images/Item_
+						}
+
+						2: {
+							NewString: ReplaceShopButtonIcon
+							OldString: ReplaceShopButtonIcon
+						}
+
+						1: {
+							NewString: DialogueTweak
+							OldString: DialogueTweak
+						}
+					}
+				}
+
+				FishermanNPC: {
+					DrawTownAttackSwing: {
+						1: {
+							NewString: Terraria/Images/Item_
+							OldString: Terraria/Images/Item_
+						}
+					}
+
+					AddShops: {
+						2: {
+							NewString: Bait
+							OldString: Bait
+						}
+
+						1: {
+							NewString: Fish
+							OldString: Fish
+						}
+					}
+
+					OnChatButtonClicked: {
+						2: {
+							NewString: Bait
+							OldString: Bait
+						}
+
+						1: {
+							NewString: Fish
+							OldString: Fish
+						}
+					}
+
+					SetChatButtons: {
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.ChatOption2
+							OldString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.ChatOption2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.ChatOption1
+							OldString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.ChatOption1
+						}
+					}
+
+					GetChat: {
+						4: {
+							NewString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue4
+							OldString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue3
+							OldString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue2
+							OldString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue1
+							OldString: Mods.HelpfulNPCs.Dialogue.FishermanNPC.StandardDialogue1
+						}
+					}
+
+					SetNPCNameList: {
+						4: {
+							NewString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name4
+							OldString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name3
+							OldString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name2
+							OldString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name1
+							OldString: Mods.HelpfulNPCs.NPCNames.FishermanNPC.Name1
+						}
+					}
+
+					SetBestiary: {
+						1: {
+							NewString: Mods.HelpfulNPCs.Bestiary.FishermanNPC
+							OldString: Mods.HelpfulNPCs.Bestiary.FishermanNPC
+						}
+					}
+
+					get_Texture: {
+						1: {
+							NewString: HelpfulNPCs/FishermanNPC
+							OldString: HelpfulNPCs/FishermanNPC
+						}
+					}
+				}
+
+				EnvironmentalistNPC: {
+					AddShops: {
+						2: {
+							NewString: Critters
+							OldString: Critters
+						}
+
+						1: {
+							NewString: Plants
+							OldString: Plants
+						}
+					}
+
+					OnChatButtonClicked: {
+						2: {
+							NewString: Critters
+							OldString: Critters
+						}
+
+						1: {
+							NewString: Plants
+							OldString: Plants
+						}
+					}
+
+					SetChatButtons: {
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.ChatOption2
+							OldString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.ChatOption2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.ChatOption1
+							OldString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.ChatOption1
+						}
+					}
+
+					GetChat: {
+						4: {
+							NewString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue4
+							OldString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue3
+							OldString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue2
+							OldString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue2
+						}
+
+						1: {
+							NewString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue1
+							OldString: Mods.HelpfulNPCs.Dialogue.EnvironmentalistNPC.StandardDialogue1
+						}
+					}
+
+					SetNPCNameList: {
+						4: {
+							NewString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name4
+							OldString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name4
+						}
+
+						3: {
+							NewString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name3
+							OldString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name3
+						}
+
+						2: {
+							NewString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name2
+							OldString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name2
+						}
+
+						1: {
+							OldString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name1
+							NewString: Mods.HelpfulNPCs.NPCNames.EnvironmentalistNPC.Name1
+						}
+					}
+
+					get_Texture: {
+						1: {
+							OldString: HelpfulNPCs/EnvironmentalistNPC
+							NewString: HelpfulNPCs/EnvironmentalistNPC
+						}
+					}
+
+					SetBestiary: {
+						1: {
+							OldString: Mods.HelpfulNPCs.Bestiary.EnvironmentalistNPC
+							NewString: Mods.HelpfulNPCs.Bestiary.EnvironmentalistNPC
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+TownNPCMood_Princess: {
+	LoveNPC_HelpfulNPCs/EnvironmentalistNPC: "{NPCName} works so hard to conserve nature!"
+	LoveNPC_HelpfulNPCs/FishermanNPC: "{NPCName} enjoys fishing with me!"
+	LoveNPC_HelpfulNPCs/HunterNPC: "{NPCName} does his best to protect everyone from monsters!"
+	LoveNPC_HelpfulNPCs/MinerNPC: "{NPCName} works hard to get resources for everyone!"
+}

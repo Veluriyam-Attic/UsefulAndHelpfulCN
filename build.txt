@@ -1,0 +1,9 @@
+displayName = Useful & Helpful NPC 汉化
+author = 玲珑汉化组
+version = 0.1
+translationMod = true
+sortAfter = HelpfulNPCs,UsefulNPCs
+side = Client
+hideCode = true
+hideResources = true
+dllReferences = TigerForceLocalizationLib
