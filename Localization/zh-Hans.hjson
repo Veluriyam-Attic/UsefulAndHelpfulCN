@@ -1,4 +1,200 @@
 Mods: {
+	HelpfulNPCs: {
+		Items: {
+			FishCrate: {
+				DisplayName: 鱼箱
+				Tooltip: 右键来获得当前所需任务鱼
+			}
+
+			DazzlingFlower: {
+				DisplayName: 耀眼之花
+				Tooltip: 放在背包中以允许环境学家入住
+			}
+
+			GlimmeringStone: {
+				DisplayName: 闪烁之石
+				Tooltip: 放在背包中以允许矿工入住
+			}
+
+			GlisteningGel: {
+				DisplayName: 熠光凝胶
+				Tooltip: 放在背包中以允许猎人入住
+			}
+
+			RadiantFish: {
+				DisplayName: 辉光之鱼
+				Tooltip: 放在背包中以允许鱼贩入住
+			}
+		}
+
+		NPCs: {
+			EnvironmentalistNPC: {
+				DisplayName: 环境学家
+
+				TownNPCMood: {
+					Content: 我正在享受自然的环境
+					NoHome: 尽管我热爱自然，但我仍需要保护
+					LoveSpace: 这里有足够的空间给我的植物
+					FarFromHome: 我需要回家来继续我的研究
+					DislikeCrowded: 在这里我无法集中精力于我的研究
+					HateCrowded: 人们总是撞到我的植物!
+					LikeBiome: 我喜欢{BiomeName}. 它总是让我感到平静
+					DislikeBiome: 几乎没有任何生物可以在{BiomeName}存活.
+					LikeNPC: "{NPCName}理解我对于自然的激情!"
+					LoveNPC: "{NPCName}是自然的化身!"
+					DislikeNPC: "{NPCName}将利润置于环境之上!"
+					HateNPC: "{NPCName}破坏了我努力保护的一切!"
+					LikeNPC_Princess: "{NPCName}总是鼓励着我继续努力."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/EnvironmentalistNPC}"
+				}
+
+				Census.SpawnCondition: 背包中存在[i:HelpfulNPCs/DazzlingFlower]{$Items.DazzlingFlower.DisplayName}
+			}
+
+			FishermanNPC: {
+				DisplayName: 鱼贩
+
+				TownNPCMood: {
+					Content: *Z~Z~Z~*
+					NoHome: 我需要一个地方来钓鱼!
+					LoveSpace: 我喜欢这里. 这有我和我的鱼竿！
+					FarFromHome: 我该回去钓鱼了.
+					DislikeCrowded: 钓鱼时，人们总是撞到我.
+					HateCrowded: 这里没有足够的空间来排队！
+					LikeBiome: 海里有这么多鱼！
+					DislikeBiome: "{BiomeName}里没有任何一条鱼!"
+					LikeNPC: "{NPCName}是我的好朋友."
+					LoveNPC: "{NPCName}是一个很好的孩子."
+					DislikeNPC: "{NPCName}试图升级我的钓竿，结果爆炸了."
+					LikeNPC_Princess: 我并不介意钓鱼时{NPCName}在我周围
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/FishermanNPC}"
+				}
+
+				Census.SpawnCondition: 背包中存在[i:HelpfulNPCs/RadiantFish]{$Items.RadiantFish.DisplayName}
+			}
+
+			HunterNPC: {
+				DisplayName: 猎人
+
+				TownNPCMood: {
+					Content: 我很冷.
+					NoHome: 我需要一个地方放我的装备.
+					LoveSpace: 我喜欢这里的宁静.
+					FarFromHome: 这里离家太远了.
+					DislikeCrowded: 我无法在这里集中精神.
+					HateCrowded: 人们不停地敲我的东西!
+					LikeBiome: 我喜欢{BiomeName}的阴森.
+					DislikeBiome: 我没有应对{BiomeName}的任何装备.
+					LikeNPC: "{NPCName}的毒液十分有用."
+					LoveNPC: "{NPCName}和我的故事可以追溯到很久以前."
+					DislikeNPC: "{NPCName}太吵闹了."
+					LikeNPC_Princess: "{NPCName}总是知道该在什么时候给我留下个人空间，这样我就可以集中注意力了."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/HunterNPC}"
+				}
+
+				Census.SpawnCondition: 背包中存在[i:HelpfulNPCs/GlisteningGel]{$Items.GlisteningGel.DisplayName}
+			}
+
+			MinerNPC: {
+				DisplayName: 矿工
+
+				TownNPCMood: {
+					Content: 这让我回到了过去的美好时光.
+					NoHome: 我该在哪里休息？
+					LoveSpace: 这里有足够的空间放下我所有的工具
+					FarFromHome: 我似乎挖得太深了.
+					DislikeCrowded: 我总是碰到人
+					HateCrowded: 太拥挤了，我甚至不能离开！
+					LikeBiome: 这里有这么多矿石要开采！
+					DislikeBiome: 我该怎么在这里挖矿？
+					LikeNPC: "{NPCName}有点古怪，但他为我做了一些有用的小工具."
+					LoveNPC: "{NPCName}和我在一起玩得很开心!"
+					DislikeNPC: "{NPCName}一直在试图修剪我的胡子."
+					LikeNPC_Princess: "{NPCName}帮我在长时间挖矿后保持干净."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/MinerNPC}"
+				}
+
+				Census.SpawnCondition: 背包中存在[i:HelpfulNPCs/GlimmeringStone]{$Items.GlimmeringStone.DisplayName}
+			}
+
+			Chester.DisplayName: Chester
+		}
+
+		Bestiary: {
+			EnvironmentalistNPC: 环境学家热爱自然，为了保护环境而出售植物和动物. 你不会对她们做坏事的对吗？
+			FishermanNPC: 鱼贩喜欢整天钓鱼. 他与渔夫的关系不得而知.
+			HunterNPC: 猎人是所有怪物心中梦魇. 是的，他的父母给他起名叫猎人.
+			MinerNPC: 矿工大部分时间都在地下深处度过. 由于某种原因，他非常喜欢采矿.
+		}
+
+		NPCNames: {
+			EnvironmentalistNPC: {
+				Name1: Gregor
+				Name2: Mendal
+				Name3: Theophrastus
+				Name4: Hooke
+			}
+
+			FishermanNPC: {
+				Name1: Ernest
+				Name2: Thomas
+				Name3: Michael
+				Name4: Curt
+			}
+
+			HunterNPC.Name1: Hunter
+
+			MinerNPC: {
+				Name1: Gold
+				Name2: John
+				Name3: Edward
+				Name4: Thomas
+			}
+		}
+
+		Dialogue: {
+			EnvironmentalistNPC: {
+				StandardDialogue1: 嘿！不要踩在我的草地上!
+				StandardDialogue2: 根本没有魔法豆茎这种东西.
+				StandardDialogue3: 我对泰拉大陆的生物研究基本完成了
+				StandardDialogue4: 种植植物需要辛勤劳动和奉献精神.
+				ChatOption1: 植物
+				ChatOption2: 小动物
+			}
+
+			FishermanNPC: {
+				StandardDialogue1: 都说授人以鱼不如授人以渔，可是总有不守规则的家伙用钓鱼破坏游戏进程
+				StandardDialogue2: *鼾声*
+				StandardDialogue3: 为什么有时候我会钓上垃圾？谁把东西扔进水里了？
+				StandardDialogue4: 在我那个时代，即使是木箱里也会有钛金！
+				ChatOption1: 鱼
+				ChatOption2: 鱼饵
+			}
+
+			HunterNPC: {
+				StandardDialogue1: 安静，我需要集中精神
+				StandardDialogue2: ...
+				StandardDialogue3: 是的，我是个从事猎人的猎人
+				StandardDialogue4: 你应该庆幸我没有攻击你
+				ChatOption1: 敌怪掉落物
+				ChatOption2: 困难模式魂/四柱碎片
+				ChatOption3: 弹药
+				ChatOption4: 切换商店
+			}
+
+			MinerNPC: {
+				StandardDialogue1: 回到地表，没有什么比喝上一杯好啤酒更好了!
+				StandardDialogue2: 我不需要这些闪闪发光的宝石，想从我这把它买下来吗?
+				StandardDialogue3: 你说我必须在11挖矿是什么意思?
+				StandardDialogue4: 钻石? 我并不期待这种东西, 但我也并不认为你能拿它做出把剑.
+				ChatOption1: 矿物
+				ChatOption2: 方块
+			}
+		}
+
+		Conditions.DownedSkeletronOrQueenBee: 击败骷髅王或蜂王
+	}
+
 	UsefulNPCs: {
 		Configs: {
 			UsefulConfig: {
@@ -242,9 +438,8 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.LikeNPC_Princess}"
 					Princess_LovesNPC: 我喜欢{NPCName}！
+					Census.SpawnCondition: 入驻三名以上城镇NPC时
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			Builder: {
@@ -264,9 +459,8 @@ Mods: {
 					DislikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Builder.DislikeNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Builder.LikeNPC_Princess}"
 					Princess_LovesNPC: 我喜欢{NPCName}！
+					Census.SpawnCondition: 无条件
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			Dealer: {
@@ -286,9 +480,8 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.LikeNPC_Princess}"
 					Princess_LovesNPC: 我喜欢{NPCName}！
+					Census.SpawnCondition: 击败史莱姆王
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			Hephaestus: {
@@ -303,9 +496,8 @@ Mods: {
 					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.HateCrowded}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.LikeNPC_Princess}"
 					Princess_LovesNPC: 我喜欢{NPCName}！
+					Census.SpawnCondition: 击败克苏鲁之眼
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			Martian: {
@@ -325,9 +517,8 @@ Mods: {
 					DislikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Martian.DislikeNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Martian.LikeNPC_Princess}"
 					Princess_LovesNPC: 我喜欢{NPCName}！
+					Census.SpawnCondition: 击败火星暴乱事件
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			OldChampion: {
@@ -347,13 +538,12 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.LikeNPC_Princess}"
 					Princess_LovesNPC: 我喜欢{NPCName}！
+					Census.SpawnCondition: 击败克苏鲁之眼
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 
 			ShootingStar: {
-				DisplayName: 流星
+				DisplayName: 明日之星
 
 				TownNPCMood: {
 					Content: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.Content}"
@@ -370,9 +560,8 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LikeNPC_Princess}"
 					Princess_LovesNPC: 我喜欢{NPCName}！
+					Census.SpawnCondition: 到达过发光蘑菇地
 				}
-
-				// Census.SpawnCondition: Conditions unknown
 			}
 		}
 
@@ -419,11 +608,11 @@ Mods: {
 				FarFromHome: 这让我想起了我被困住的糟糕时光
 				DislikeCrowded: 人们开始怀疑我是怎么得到我的货物的...
 				HateCrowded: 我想我可能会被这么多人搞砸！
-				LoveSpace: 周围没有多少人问我任何事情。我喜欢这样！
+				LoveSpace: 周围没有多少人问我任何事情. 我喜欢这样！
 				LikeBiome: "{BiomeName}是一个藏身的好地方：货物和我自己"
 				LoveBiome: 我爱{BiomeName}
-				DislikeBiome: 我无法在{BiomeName}重新进货。这里太开放了，不能做生意！
-				HateBiome: 风浪越大，鱼越贵。不错，但{BiomeName}只有风浪
+				DislikeBiome: 我无法在{BiomeName}重新进货. 这里太开放了，不能做生意！
+				HateBiome: 风浪越大，鱼越贵. 不错，但{BiomeName}只有风浪
 				LikeNPC: 你曾与{NPCName}交谈过吗？他真的是个很棒的人！
 				LoveNPC: 你觉得{NPCName}也在想我吗？
 				DislikeNPC: 说真的，{NPCName}让我感到讨厌
@@ -437,11 +626,11 @@ Mods: {
 				FarFromHome: 我真的不介意离家太远，但游戏机制告诉我，我应该讨厌这样
 				DislikeCrowded: 我并不认为这里的人快乐
 				HateCrowded: 你在建造房子方面太懒了...
-				LoveSpace: 幸福很重要。是的，我是这么认为的
+				LoveSpace: 幸福很重要. 是的，我是这么认为的
 				LikeBiome: 我喜欢{BiomeName}
 				LoveBiome: 我爱{BiomeName}
 				DislikeBiome: 我讨厌{BiomeName}
-				HateBiome: 这里太让人恶心了。你不能移动我的房子吗？
+				HateBiome: 这里太让人恶心了. 你不能移动我的房子吗？
 				LikeNPC: 我喜欢{NPCName}！
 				LoveNPC: 我要爱上{NPCName}了！
 				DislikeNPC: 说真的{NPCName}让我感到讨厌
@@ -460,7 +649,7 @@ Mods: {
 				LoveBiome: 我爱{BiomeName}
 				DislikeBiome: "{BiomeName}太热了！真的有生命体在这里生存？"
 				HateBiome: 我知道我做了一些可疑的事情，但把我放在这里并不是好办法
-				LikeNPC: "{NPCName}是一个有趣的标本。"
+				LikeNPC: "{NPCName}是一个有趣的标本. "
 				LoveNPC: 那...那真的是{NPCName}吗！我的天哪兄弟！我需要和他谈谈！
 				DislikeNPC: 我认为{NPCName}是在研究他的俘虏,但他只是在“保护”大自然，真蠢！
 				HateNPC: 不要提到{NPCName}！我一点也不想听到这个名字
@@ -478,25 +667,25 @@ Mods: {
 				LoveBiome: 我爱{BiomeName}
 				DislikeBiome: 谁制作了{BiomeName}生物群系？他是没有脑子吗？
 				HateBiome: 如果我年轻10岁，我会要求住在这里，但现在我年轻不了十岁
-				LikeNPC: "{NPCName}是这里唯一的好人。"
+				LikeNPC: "{NPCName}是这里唯一的好人. "
 				LoveNPC: 我要爱上{NPCName}了！
 				DislikeNPC: 那个白胡子的{NPCName}是如此的狭隘！像肯尼迪一眼敞开胸怀！
 				HateNPC: 在我跟着{NPCName}的这些天，他总是用“好的，新迁入者”来回应我，这是什么意思？
-				LikeNPC_Princess: "{NPCName}非常懂礼节。她一定有好父母"
+				LikeNPC_Princess: "{NPCName}非常懂礼节. 她一定有好父母"
 			}
 
 			ShootingStar: {
 				Content: (她似乎太专注于Orangestar的音乐了)
 				NoHome: 我需要一个地方来抄下Orangestar的乐谱！
-				FarFromHome: 我从流星变成了一颗孤独的星星。希望我能像Orangestar那样出色！
-				DislikeCrowded: 今天有两个人来告诉我降低音量。可我在播放Orangestar的音乐！他们真没有品位！！！
+				FarFromHome: 我从流星变成了一颗孤独的星星. 希望我能像Orangestar那样出色！
+				DislikeCrowded: 今天有两个人来告诉我降低音量. 可我在播放Orangestar的音乐！他们真没有品位！！！
 				HateCrowded: 大众不会理解像我这样的天才音乐家，他们甚至不听Orangestar！
 				LoveSpace: 我应该把音量再调大一点吗？人们可能听不见
 				LikeBiome: 彩虹...让我觉得很酷！Orangestar也很酷！
 				LoveBiome: "{BiomeName}有很酷的背景音乐！虽然比Orangestar差远了！"
-				DislikeBiome: "{BiomeName}只是充满了嗡嗡声。我不喜欢这样！他该去听听Orangestar的音乐了！"
-				HateBiome: 我喜欢这里的音乐，但我还没听完。不过无所谓了，注定超越不了Orangestar
-				LikeNPC: 不用说，{NPCName}肯定知道Orangestar。我甚至可以说，她“是最有品位的人”！
+				DislikeBiome: "{BiomeName}只是充满了嗡嗡声. 我不喜欢这样！他该去听听Orangestar的音乐了！"
+				HateBiome: 我喜欢这里的音乐，但我还没听完. 不过无所谓了，注定超越不了Orangestar
+				LikeNPC: 不用说，{NPCName}肯定知道Orangestar. 我甚至可以说，她“是最有品位的人”！
 				LoveNPC: 嘿，你能不能问问{NPCName}喜不喜欢Orangestar
 				DislikeNPC: 我讨厌不喜欢Orangestar的人，就比如{NPCName}
 				HateNPC: "{NPCName}之前和我说Orangestar的音乐很糟糕！他太没有品味了！就和他的建筑一样！"
@@ -504,4 +693,11 @@ Mods: {
 			}
 		}
 	}
+}
+
+TownNPCMood_Princess: {
+	LoveNPC_HelpfulNPCs/EnvironmentalistNPC: "{NPCName}在很努力地保护自然！!"
+	LoveNPC_HelpfulNPCs/FishermanNPC: "{NPCName} 享受和我捕鱼的时光!"
+	LoveNPC_HelpfulNPCs/HunterNPC: "{NPCName}在尽最大努力保证每个人不被怪物伤害!"
+	LoveNPC_HelpfulNPCs/MinerNPC: "{NPCName}努力工作给更多人提供资源!"
 }

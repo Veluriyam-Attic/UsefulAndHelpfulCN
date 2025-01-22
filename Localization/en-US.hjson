@@ -1,4 +1,200 @@
 Mods: {
+	HelpfulNPCs: {
+		Items: {
+			FishCrate: {
+				DisplayName: Fish Crate
+				Tooltip: Right click to receive the current quest fish
+			}
+
+			DazzlingFlower: {
+				DisplayName: Dazzling Flower
+				Tooltip: Keep inside inventory to allow the Environmentalist to move in.
+			}
+
+			GlimmeringStone: {
+				DisplayName: Glimmering Stone
+				Tooltip: Keep inside inventory to allow the Miner to move in.
+			}
+
+			GlisteningGel: {
+				DisplayName: Glistening Gel
+				Tooltip: Keep inside inventory to allow the Hunter to move in.
+			}
+
+			RadiantFish: {
+				DisplayName: Radiant Fish
+				Tooltip: Keep inside inventory to allow the Fisherman to move in.
+			}
+		}
+
+		NPCs: {
+			EnvironmentalistNPC: {
+				DisplayName: Environmentalist
+
+				TownNPCMood: {
+					Content: I am enjoying nature right now.
+					NoHome: As much as I love nature, I also need shelter.
+					LoveSpace: There is plenty of space here for my plants.
+					FarFromHome: I need to get home to continue my research.
+					DislikeCrowded: I can't focus on my research here.
+					HateCrowded: People keep bumping into my plants!
+					LikeBiome: I like {BiomeName}. It always puts me at peace.
+					DislikeBiome: There is barely any flora in {BiomeName}.
+					LikeNPC: "{NPCName} understands my passion for nature."
+					LoveNPC: "{NPCName} is nature incarnate!"
+					DislikeNPC: "{NPCName} prioritizes his profits over the environment!"
+					HateNPC: "{NPCName} destroys everything I try to conserve!"
+					LikeNPC_Princess: "{NPCName} always encourages me on my efforts."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/EnvironmentalistNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.DazzlingFlower.DisplayName} [i:HelpfulNPCs/DazzlingFlower] in your inventory
+			}
+
+			FishermanNPC: {
+				DisplayName: Fisherman
+
+				TownNPCMood: {
+					Content: *Snooze*
+					NoHome: I need a place to fish!
+					LoveSpace: I love it here. Just me and my fishing rod.
+					FarFromHome: I need to get back to fishing.
+					DislikeCrowded: People keep bumping into me while fishing.
+					HateCrowded: There's not enough room to cast a line!
+					LikeBiome: There are so many fish in the sea!
+					DislikeBiome: There's no fish in {BiomeName}!
+					LikeNPC: "{NPCName} is a good pal of mine."
+					LoveNPC: "{NPCName} is such a good kid."
+					DislikeNPC: "{NPCName} tried to upgrade my fishing rod and it blew up."
+					LikeNPC_Princess: I don't mind having {NPCName} around while I'm fishing.
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/FishermanNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.RadiantFish.DisplayName} [i:HelpfulNPCs/RadiantFish] in your inventory
+			}
+
+			HunterNPC: {
+				DisplayName: Hunter
+
+				TownNPCMood: {
+					Content: I'm chillin.
+					NoHome: I need a place to put my gear.
+					LoveSpace: I enjoy the peace and quiet here.
+					FarFromHome: I have strayed too far from home.
+					DislikeCrowded: I can't focus here.
+					HateCrowded: People keep knocking my stuff over!
+					LikeBiome: I enjoy the cold in {BiomeName}.
+					DislikeBiome: I don't have any equipment for {BiomeName}.
+					LikeNPC: "{NPCName}'s venom is very useful."
+					LoveNPC: "{NPCName} and I go way back."
+					DislikeNPC: "{NPCName} is too loud."
+					LikeNPC_Princess: "{NPCName} always knows when to give me space so I can focus."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/HunterNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.GlisteningGel.DisplayName} [i:HelpfulNPCs/GlisteningGel] in your inventory
+			}
+
+			MinerNPC: {
+				DisplayName: Miner
+
+				TownNPCMood: {
+					Content: This brings me back to the good ol' days.
+					NoHome: Where am I supposed to rest?
+					LoveSpace: There is plenty of space for all my tools.
+					FarFromHome: I appear to have dug too far.
+					DislikeCrowded: I keep bumping into people
+					HateCrowded: It's so crowded I can't even leave!
+					LikeBiome: There are so many ores here to mine.
+					DislikeBiome: How am I supposed to mine here?
+					LikeNPC: "{NPCName} is a bit wierd but he's made some useful gadgets for me."
+					LoveNPC: "{NPCName} and I are having a great time together!"
+					DislikeNPC: "{NPCName} keeps trying to trim my beard."
+					LikeNPC_Princess: "{NPCName} helps me get cleaned up after a long mining session."
+					Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_HelpfulNPCs/MinerNPC}"
+				}
+
+				Census.SpawnCondition: Have a {$Items.GlimmeringStone.DisplayName} [i:HelpfulNPCs/GlimmeringStone] in your inventory
+			}
+
+			Chester.DisplayName: Chester
+		}
+
+		Bestiary: {
+			EnvironmentalistNPC: The Environmentalist loves nature. He sells plants and animals for conservation. You wouldn't do anything bad with them, right?
+			FishermanNPC: The Fisherman loves to fish all day. His connection to the Angler is unkown.
+			HunterNPC: The Hunter strikes fear into the hearts of all monsters. Yes, his parents named him Hunter.
+			MinerNPC: The Miner spends most of his time deep underground. For some reason, he actually enjoys mining.
+		}
+
+		NPCNames: {
+			EnvironmentalistNPC: {
+				Name1: Gregor
+				Name2: Mendal
+				Name3: Theophrastus
+				Name4: Hooke
+			}
+
+			FishermanNPC: {
+				Name1: Ernest
+				Name2: Thomas
+				Name3: Michael
+				Name4: Curt
+			}
+
+			HunterNPC.Name1: Hunter
+
+			MinerNPC: {
+				Name1: Gold
+				Name2: John
+				Name3: Edward
+				Name4: Thomas
+			}
+		}
+
+		Dialogue: {
+			EnvironmentalistNPC: {
+				StandardDialogue1: Hey! Don't step on my plants!
+				StandardDialogue2: There's no such thing as magic beanstalks.
+				StandardDialogue3: My research on Terrarian critters is almost complete.
+				StandardDialogue4: Growing plants takes hardwork and dedication.
+				ChatOption1: Plants
+				ChatOption2: Critters
+			}
+
+			FishermanNPC: {
+				StandardDialogue1: Give a man a fish, and you feed him for a day. Teach a man to fish, and he'll break the game's progression.
+				StandardDialogue2: *Snore*
+				StandardDialogue3: How come sometimes I fish up junk? Who's been throwing things in the water?
+				StandardDialogue4: Back in my day, even wooden crates would have titanium in them!
+				ChatOption1: Fish
+				ChatOption2: Bait
+			}
+
+			HunterNPC: {
+				StandardDialogue1: Quiet, I need to focus.
+				StandardDialogue2: ...
+				StandardDialogue3: Yes, I am Hunter the Hunter.
+				StandardDialogue4: You should be glad that I'm not hunting you.
+				ChatOption1: Monster Drops
+				ChatOption2: Souls/Essences
+				ChatOption3: Ammunition
+				ChatOption4: Change Shop
+			}
+
+			MinerNPC: {
+				StandardDialogue1: There's nothing like a good beer after coming back to the surface!
+				StandardDialogue2: I have no use for these shiny gems and ore, want to buy them off me?
+				StandardDialogue3: What do you mean I shouldn't mine at Y level 11?
+				StandardDialogue4: Diamonds? I'm no expert, but I don't think you can make a sword out of them.
+				ChatOption1: Valuables
+				ChatOption2: Blocks
+			}
+		}
+
+		Conditions.DownedSkeletronOrQueenBee: Mods.HelpfulNPCs.Conditions.DownedSkeletronOrQueenBee
+	}
+
 	UsefulNPCs: {
 		Configs: {
 			UsefulConfig: {
@@ -242,9 +438,8 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.LikeNPC_Princess}"
 					Princess_LovesNPC: I like {NPCName}.
+					Census.SpawnCondition: 入驻三名以上城镇NPC时
 				}
-
-				Census.SpawnCondition: Conditions unknown
 			}
 
 			Builder: {
@@ -264,9 +459,8 @@ Mods: {
 					DislikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Builder.DislikeNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Builder.LikeNPC_Princess}"
 					Princess_LovesNPC: I like {NPCName}.
+					Census.SpawnCondition: 无条件
 				}
-
-				Census.SpawnCondition: Conditions unknown
 			}
 
 			Dealer: {
@@ -286,9 +480,8 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.LikeNPC_Princess}"
 					Princess_LovesNPC: I like {NPCName}.
+					Census.SpawnCondition: 击败史莱姆王
 				}
-
-				Census.SpawnCondition: Conditions unknown
 			}
 
 			Hephaestus: {
@@ -303,9 +496,8 @@ Mods: {
 					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.HateCrowded}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.LikeNPC_Princess}"
 					Princess_LovesNPC: I like {NPCName}.
+					Census.SpawnCondition: 击败克苏鲁之眼
 				}
-
-				Census.SpawnCondition: Conditions unknown
 			}
 
 			Martian: {
@@ -325,9 +517,8 @@ Mods: {
 					DislikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Martian.DislikeNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Martian.LikeNPC_Princess}"
 					Princess_LovesNPC: I like {NPCName}.
+					Census.SpawnCondition: 击败火星暴乱事件
 				}
-
-				Census.SpawnCondition: Conditions unknown
 			}
 
 			OldChampion: {
@@ -347,9 +538,8 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.LikeNPC_Princess}"
 					Princess_LovesNPC: I like {NPCName}.
+					Census.SpawnCondition: 击败克苏鲁之眼
 				}
-
-				Census.SpawnCondition: Conditions unknown
 			}
 
 			ShootingStar: {
@@ -370,9 +560,8 @@ Mods: {
 					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.HateNPC}"
 					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LikeNPC_Princess}"
 					Princess_LovesNPC: I like {NPCName}.
+					Census.SpawnCondition: 到达过发光蘑菇地
 				}
-
-				Census.SpawnCondition: Conditions unknown
 			}
 		}
 
@@ -504,4 +693,11 @@ Mods: {
 			}
 		}
 	}
+}
+
+TownNPCMood_Princess: {
+	LoveNPC_HelpfulNPCs/EnvironmentalistNPC: "{NPCName} works so hard to conserve nature!"
+	LoveNPC_HelpfulNPCs/FishermanNPC: "{NPCName} enjoys fishing with me!"
+	LoveNPC_HelpfulNPCs/HunterNPC: "{NPCName} does his best to protect everyone from monsters!"
+	LoveNPC_HelpfulNPCs/MinerNPC: "{NPCName} works hard to get resources for everyone!"
 }

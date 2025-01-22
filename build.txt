@@ -1,6 +1,6 @@
-displayName = Useful & Helpful NPC 汉化
+displayName = Useful NPCs & Helpful NPCs 汉化
 author = 玲珑汉化组
-version = 0.1
+version = 0.1.0.1
 translationMod = true
 weakReferences = HelpfulNPCs,UsefulNPCs
 side = Client

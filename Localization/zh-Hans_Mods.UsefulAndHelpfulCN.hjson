@@ -5,97 +5,97 @@ ForceLocalizations: {
 				GetChat: {
 					1: {
 						OldString: Salute to the dead, but not forgotten.
-						NewString: Salute to the dead, but not forgotten.
+						NewString: 铭记历史，勿忘国耻
 					}
 
 					2: {
 						OldString: I could've saved more people with my potions...
-						NewString: I could've saved more people with my potions...
+						NewString: 我的药水无法拯救更多的人...
 					}
 
 					3: {
 						OldString: I made a brand new potion to make you enjoy the party more.
-						NewString: I made a brand new potion to make you enjoy the party more.
+						NewString: 我做了一种全新的药水，这能让你更享受聚会.
 					}
 
 					4: {
 						OldString: Some plants need more water than others.
-						NewString: Some plants need more water than others.
+						NewString: 有些植物比其他植物更需要水分.
 					}
 
 					5: {
 						OldString: When it rains in desert, it's the plants' chance to bloom and spread its seeds.
-						NewString: When it rains in desert, it's the plants' chance to bloom and spread its seeds.
+						NewString: 当沙漠中下雨时，这是植物开花和传播种子的好机会.
 					}
 
 					6: {
 						OldString: *sniff* I'm actually little allergic to pollen...
-						NewString: *sniff* I'm actually little allergic to pollen...
+						NewString: *吸* 我其实对花粉有点过敏...
 					}
 
 					7: {
 						OldString: I saw a really angry dandelion once. How can a plant be so angry?
-						NewString: I saw a really angry dandelion once. How can a plant be so angry?
+						NewString: 我曾经看到一朵非常愤怒的蒲公英. 植物怎么会这么生气？
 					}
 
 					8: {
 						OldString: Do you think I can make a potion to make you immune to lightning? No?
-						NewString: Do you think I can make a potion to make you immune to lightning? No?
+						NewString: 你觉得我能做一种药水让你免疫闪电吗？不能？
 					}
 
 					9: {
 						OldString: I'm worried about my plants getting hit by a lightning.
-						NewString: I'm worried about my plants getting hit by a lightning.
+						NewString: 我担心我的植物会被闪电击中.
 					}
 
 					10: {
 						OldString: "My potions would kill you "
-						NewString: "My potions would kill you "
+						NewString: 我的药水会杀了你
 					}
 
 					11: {
 						OldString: ", You cannot handle my potions... Actually, nevermind, you've got this."
-						NewString: ", You cannot handle my potions... Actually, nevermind, you've got this."
+						NewString: ", 你不能把握得住我的药水...事实上，没关系，你有这个. "
 					}
 
 					12: {
 						OldString: Do you have any spare flower pots? Not that I can use them.
-						NewString: Do you have any spare flower pots? Not that I can use them.
+						NewString: 你有多余的花盆吗？我并不是说我可以使用它们.
 					}
 
 					13: {
 						OldString: If you are worrying about running out of potions, you can just not use them.
-						NewString: If you are worrying about running out of potions, you can just not use them.
+						NewString: 如果你担心药水用完，那你不用不就好了.
 					}
 
 					14: {
 						OldString: You killed the king of the plants? I don't think it's a king nor a plant.
-						NewString: You killed the king of the plants? I don't think it's a king nor a plant.
+						NewString: 你杀了植物之王？虽然我认为它既不是王者，也不是植物.
 					}
 
 					15: {
 						OldString: I think my herbs are growing well.
-						NewString: I think my herbs are growing well.
+						NewString: 我觉得我的草药长得很好.
 					}
 
 					16: {
 						OldString: I was visiting jungle yesterday and saw a beautiful glowing flower.
-						NewString: I was visiting jungle yesterday and saw a beautiful glowing flower.
+						NewString: 昨天我在丛林里看到了一朵正在发光的花. 真是美丽！
 					}
 
 					17: {
 						OldString: My fireblossoms are not blooming because of this rain!
-						NewString: My fireblossoms are not blooming because of this rain!
+						NewString: 因为这场雨，我的火焰花没有开花！
 					}
 
 					18: {
 						OldString: It's awfully eerie now. Maybe plants can feel this too?
-						NewString: It's awfully eerie now. Maybe plants can feel this too?
+						NewString: 我现在感觉非常恐惧. 也许植物也能感觉到？
 					}
 
 					19: {
 						OldString: I swear I saw one of my herbs blooming, but it's dormant now.
-						NewString: I swear I saw one of my herbs blooming, but it's dormant now.
+						NewString: 我发誓我看到我的一种草药开花了，但现在它已经休眠了.
 					}
 				}
 
@@ -109,17 +109,17 @@ ForceLocalizations: {
 				SetChatButtons: {
 					1: {
 						OldString: Shop(Ingredients)
-						NewString: Shop(Ingredients)
+						NewString: 商店(材料)
 					}
 
 					2: {
 						OldString: Shop(Battle Potions)
-						NewString: Shop(Battle Potions)
+						NewString: 商店(战斗药水)
 					}
 
 					3: {
 						OldString: Shop(Utility Potions)
-						NewString: Shop(Utility Potions)
+						NewString: 商店(实用药水)
 					}
 
 					4: {
@@ -129,7 +129,7 @@ ForceLocalizations: {
 
 					5: {
 						OldString: Cycle Shop
-						NewString: Cycle Shop
+						NewString: 切换商店
 					}
 				}
 			}
@@ -138,77 +138,77 @@ ForceLocalizations: {
 				GetChat: {
 					1: {
 						OldString: Why are you wasting this precious piece of land for a graveyard?
-						NewString: Why are you wasting this precious piece of land for a graveyard?
+						NewString: 你为什么浪费这块宝贵的土地建墓地？
 					}
 
 					2: {
 						OldString: You can learn a lot about the dead from their grave.
-						NewString: You can learn a lot about the dead from their grave.
+						NewString: 你可以从死者的坟墓里了解很多关于他们的事情.
 					}
 
 					3: {
 						OldString: I thought parties had more well-thought out decorations.
-						NewString: I thought parties had more well-thought out decorations.
+						NewString: 我原以为聚会的装饰会更为精心策划.
 					}
 
 					4: {
 						OldString: You don't have a rainwater collector?
-						NewString: You don't have a rainwater collector?
+						NewString: 你没有雨水收集器吗？
 					}
 
 					5: {
 						OldString: Great, it's gonna take another week for the concrete to dry.
-						NewString: Great, it's gonna take another week for the concrete to dry.
+						NewString: 太好了，混凝土还需要一周的时间才能干燥.
 					}
 
 					6: {
 						OldString: This area has more wind than average.
-						NewString: This area has more wind than average.
+						NewString: 这个地区的风比平均水平大.
 					}
 
 					7: {
 						OldString: What kind of insulator did you use for this house? You know what, nevermind.
-						NewString: What kind of insulator did you use for this house? You know what, nevermind.
+						NewString: 你给这房子用了什么绝缘体？你知道什么，没关系的说出来.
 					}
 
 					8: {
 						OldString: Are you sure this house can stand against this storm?
-						NewString: Are you sure this house can stand against this storm?
+						NewString: 你确定这房子能抵御这场风暴吗？
 					}
 
 					9: {
 						OldString: I just finished patching up the window so it won't break.
-						NewString: I just finished patching up the window so it won't break.
+						NewString: 我刚把窗户修补好，这样它就不会碎了.
 					}
 
 					10: {
 						OldString: You call this house? I've seen much better.
-						NewString: You call this house? I've seen much better.
+						NewString: 你管这叫房子？我见过的都比这好多了.
 					}
 
 					11: {
 						OldString: I used to be a adveturer like you, then I took an arrow in my knee.
-						NewString: I used to be a adveturer like you, then I took an arrow in my knee.
+						NewString: 我曾经和你一样是个骗子，直到我膝盖上挨了一箭.
 					}
 
 					12: {
 						OldString: "My dirt blocks are actually extra dirty unlike that of "
-						NewString: "My dirt blocks are actually extra dirty unlike that of "
+						NewString: 我的土块实际上比其他土块更脏
 					}
 
 					13: {
 						OldString: Don't worry about me running out of blocks. I can make them out of thin air.
-						NewString: Don't worry about me running out of blocks. I can make them out of thin air.
+						NewString: 别担心我会用完建材. 我可以凭空造出它们.
 					}
 
 					14: {
 						OldString: You really need a lecture in architecture.
-						NewString: You really need a lecture in architecture.
+						NewString: 你真的需要上一堂建筑学课.
 					}
 
 					15: {
 						OldString: House means more than just a place to live.
-						NewString: House means more than just a place to live.
+						NewString: 房子不仅仅意味着一个居住的地方.
 					}
 				}
 
@@ -222,22 +222,22 @@ ForceLocalizations: {
 				SetChatButtons: {
 					1: {
 						OldString: Shop(Common Blocks)
-						NewString: Shop(Common Blocks)
+						NewString: 商店(普通建材)
 					}
 
 					2: {
 						OldString: Shop(Rare Blocks)
-						NewString: Shop(Rare Blocks)
+						NewString: 商店(稀有建材)
 					}
 
 					3: {
 						OldString: Shop(Furniture)
-						NewString: Shop(Furniture)
+						NewString: 商店(家具)
 					}
 
 					4: {
 						OldString: Shop(T. merch.)
-						NewString: Shop(T. merch.)
+						NewString: 商店(旅商家具)
 					}
 
 					5: {
@@ -247,7 +247,7 @@ ForceLocalizations: {
 
 					6: {
 						OldString: Cycle Shop
-						NewString: Cycle Shop
+						NewString: 切换商店
 					}
 				}
 			}
@@ -256,22 +256,22 @@ ForceLocalizations: {
 				GetChat: {
 					1: {
 						OldString: Don't make me a grave when I die. I don't deserve it.
-						NewString: Don't make me a grave when I die. I don't deserve it.
+						NewString: 我死的时候，别给我立坟墓. 我不配.
 					}
 
 					2: {
 						OldString: Hey I know that name... Oh.
-						NewString: Hey I know that name... Oh.
+						NewString: 嘿，我知道这个名字. . . 哦.
 					}
 
 					3: {
 						OldString: Parties are great chance to collect things.
-						NewString: Parties are great chance to collect things.
+						NewString: 聚会是收集东西的好机会.
 					}
 
 					4: {
 						OldString: Rain makes my wounds hurt more.
-						NewString: Rain makes my wounds hurt more.
+						NewString: 雨只会让我的伤口更痛.
 					}
 
 					5: {
@@ -281,57 +281,57 @@ ForceLocalizations: {
 
 					6: {
 						OldString: " seems to be too lost in his thought.)"
-						NewString: " seems to be too lost in his thought.)"
+						NewString: 似乎太沉浸在他的思绪中了. )
 					}
 
 					7: {
 						OldString: I wish someone would make me a warm soup.
-						NewString: I wish someone would make me a warm soup.
+						NewString: 我希望有人能给我做一碗热汤.
 					}
 
 					8: {
 						OldString: Death is like the wind - always by my side.
-						NewString: Death is like the wind - always by my side.
+						NewString: 死亡如风，随我身畔
 					}
 
 					9: {
 						OldString: Storm? Afraid? I just like staying indoors when it's storming.
-						NewString: Storm? Afraid? I just like staying indoors when it's storming.
+						NewString: 风暴？害怕？我只是喜欢在暴风雨时呆在室内.
 					}
 
 					10: {
 						OldString: I'd rather just stay indoors.
-						NewString: I'd rather just stay indoors.
+						NewString: 我宁愿呆在室内.
 					}
 
 					11: {
 						OldString: No refund. Never.
-						NewString: No refund. Never.
+						NewString: 不退款. 永不
 					}
 
 					12: {
 						OldString: I've got this stuffs from... somewhere. Do you wanna buy or not?
-						NewString: I've got this stuffs from... somewhere. Do you wanna buy or not?
+						NewString: 我从…某处得到了这些东西. 你到底要不要买？
 					}
 
 					13: {
 						OldString: Make it quick. I have to "restock"
-						NewString: Make it quick. I have to "restock"
+						NewString: 快点. 我必须“重新进货”
 					}
 
 					14: {
 						OldString: If you touch, you buy.
-						NewString: If you touch, you buy.
+						NewString: 如果你坚持用手去摸的话，我会让你买下来的.
 					}
 
 					15: {
 						OldString: Hey, kid, you wanna buy some weapons?
-						NewString: Hey, kid, you wanna buy some weapons?
+						NewString: 嘿，孩子，你想买些武器吗？
 					}
 
 					16: {
 						OldString: Can love... make me want to stay?
-						NewString: Can love... make me want to stay?
+						NewString: 爱可以. . . 让我留下来吗？
 					}
 				}
 
@@ -365,22 +365,22 @@ ForceLocalizations: {
 				SetChatButtons: {
 					1: {
 						OldString: Shop(T. Merch.)
-						NewString: Shop(T. Merch.)
+						NewString: 商店(旅商货物)
 					}
 
 					2: {
 						OldString: Shop(T. Merch. Vanity)
-						NewString: Shop(T. Merch. Vanity)
+						NewString: 商店(旅商时装)
 					}
 
 					3: {
 						OldString: Shop(Skel. Merch. & Crates)
-						NewString: Shop(Skel. Merch. & Crates)
+						NewString: 商店(骷髅商人货物&宝匣)
 					}
 
 					4: {
 						OldString: Shop(Santa Claus)
-						NewString: Shop(Santa Claus)
+						NewString: 商店(圣诞物品)
 					}
 
 					5: {
@@ -390,7 +390,7 @@ ForceLocalizations: {
 
 					6: {
 						OldString: Cycle Shop
-						NewString: Cycle Shop
+						NewString: 切换商店
 					}
 				}
 			}
@@ -406,109 +406,109 @@ ForceLocalizations: {
 				SetChatButtons: {
 					1: {
 						OldString: Shop(Ores)
-						NewString: Shop(Ores)
+						NewString: 商店(矿石)
 					}
 
 					2: {
 						OldString: Shop(Treasures)
-						NewString: Shop(Treasures)
+						NewString: 商店(宝藏)
 					}
 				}
 
 				GetChat: {
 					1: {
 						OldString: A place to memoir the heros. Interesting.
-						NewString: A place to memoir the heros. Interesting.
+						NewString: 一个纪念英雄的地方. 有趣.
 					}
 
 					2: {
 						OldString: Mortals are lucky to have death as a right.
-						NewString: Mortals are lucky to have death as a right.
+						NewString: 凡人很幸运，有选择死亡的权利
 					}
 
 					3: {
 						OldString: This cake reminds me of nectar. How can a mortal make such a delicacy?
-						NewString: This cake reminds me of nectar. How can a mortal make such a delicacy?
+						NewString: 这个蛋糕让我想起了花蜜. 凡人怎么能做出如此美味的食物？
 					}
 
 					4: {
 						OldString: "You want to stop the rain? Too bad. I can start it, but I can't stop it. But it'll stop in "
-						NewString: "You want to stop the rain? Too bad. I can start it, but I can't stop it. But it'll stop in "
+						NewString: 你想让雨停下来吗？太糟糕了. 我可以启动它，但我无法阻止它. 但它会在
 					}
 
 					5: {
 						OldString: " hour(s) and "
-						NewString: " hour(s) and "
+						NewString: 小时
 					}
 
 					6: {
 						OldString: " minute(s)"
-						NewString: " minute(s)"
+						NewString: 分钟后停下来
 					}
 
 					7: {
 						OldString: I saw your raindancing and thought it was funny, so here it is.
-						NewString: I saw your raindancing and thought it was funny, so here it is.
+						NewString: 我看到你在雨中起舞，觉得很有趣，所以就留在这里了.
 					}
 
 					8: {
 						OldString: How can you move exactly the same when it's this windy outside?
-						NewString: How can you move exactly the same when it's this windy outside?
+						NewString: 外面刮着这么大的风，你怎么能移动得这么轻松？
 					}
 
 					9: {
 						OldString: Hermes? Was he here too?
-						NewString: Hermes? Was he here too?
+						NewString: 赫尔墨斯? 他也在这里吗?
 					}
 
 					10: {
 						OldString: This is just raining and windy combined and nothing more.
-						NewString: This is just raining and windy combined and nothing more.
+						NewString: 雨和风的结合，仅此而已.
 					}
 
 					11: {
 						OldString: Don't worry, the lightning is just a purely visual effect.
-						NewString: Don't worry, the lightning is just a purely visual effect.
+						NewString: 别担心，闪电只是一种纯粹的视觉效果.
 					}
 
 					12: {
 						OldString: Oh yes, I am very real.
-						NewString: Oh yes, I am very real.
+						NewString: 哦，是的，我是真实的.
 					}
 
 					13: {
 						OldString: I only sell these for my own amusement.
-						NewString: I only sell these for my own amusement.
+						NewString: 我卖这些只是为了娱乐.
 					}
 
 					14: {
 						OldString: A god is only as good as his creations.
-						NewString: A god is only as good as his creations.
+						NewString: 神明与其所创造之物同等伟大.
 					}
 
 					15: {
 						OldString: People always tell me that I look better than they thought. A creative way to compliment a god.
-						NewString: People always tell me that I look better than they thought. A creative way to compliment a god.
+						NewString: 人们总是告诉我，我看起来比他们想象的要好. 一个创造性赞美上帝的方式.
 					}
 
 					16: {
 						OldString: "This "
-						NewString: "This "
+						NewString: 这
 					}
 
 					17: {
 						OldString: sounds like a follower of Ares. I don't really like to get involved in this.
-						NewString: sounds like a follower of Ares. I don't really like to get involved in this.
+						NewString: 听起来像是阿瑞斯的追随者. 我真的不喜欢卷入这件事.
 					}
 
 					18: {
 						OldString: "I'm only using "
-						NewString: "I'm only using "
+						NewString: 我只使用了我力量的
 					}
 
 					19: {
 						OldString: % of my power. You can't handle even the 10% of my power, so lucky for you.
-						NewString: % of my power. You can't handle even the 10% of my power, so lucky for you.
+						NewString: %. 你连我10%的力量都应付不了，你真幸运.
 					}
 				}
 			}
@@ -517,92 +517,92 @@ ForceLocalizations: {
 				GetChat: {
 					1: {
 						OldString: These specimens are too old for any experiments.
-						NewString: These specimens are too old for any experiments.
+						NewString: 这些标本太旧了，无法用于进行任何实验.
 					}
 
 					2: {
 						OldString: Are you gonna use those specimens? Can I use them?
-						NewString: Are you gonna use those specimens? Can I use them?
+						NewString: 你要用那些标本吗？我可以用它们吗？
 					}
 
 					3: {
 						OldString: Humans seem to have weekly quota for happiness.
-						NewString: Humans seem to have weekly quota for happiness.
+						NewString: 人类似乎每周都有固定的幸福配额.
 					}
 
 					4: {
 						OldString: Why are water drops falling from the sky?
-						NewString: Why are water drops falling from the sky?
+						NewString: 为什么天上正在掉下水滴？
 					}
 
 					5: {
 						OldString: Do humans also need to get hit by water to grow?
-						NewString: Do humans also need to get hit by water to grow?
+						NewString: 人类也需要被水击中才能生长吗？
 					}
 
 					6: {
 						OldString: This wind makes me homesick...
-						NewString: This wind makes me homesick...
+						NewString: 这风让我怀念家了. . .
 					}
 
 					7: {
 						OldString: At Mars, this kind of wind is normal.
-						NewString: At Mars, this kind of wind is normal.
+						NewString: 在火星上，这种风是很正常的.
 					}
 
 					8: {
 						OldString: I got to say though, storms still freak me out.
-						NewString: I got to say though, storms still freak me out.
+						NewString: 不过，我不得不说，风暴仍然让我感到害怕.
 					}
 
 					9: {
 						OldString: What kind of unholy ritual is this? What? This is normal?
-						NewString: What kind of unholy ritual is this? What? This is normal?
+						NewString: 这是什么邪恶的仪式？什么？这正常吗？
 					}
 
 					10: {
 						OldString: "Hey, have you "
-						NewString: "Hey, have you "
+						NewString: 嘿！你
 					}
 
 					11: {
 						OldString: .... Oops, translater malfunctioned.
-						NewString: .... Oops, translater malfunctioned.
+						NewString: .... CS0721:翻译器出现故障.
 					}
 
 					12: {
 						OldString: "Have you seen "
-						NewString: "Have you seen "
+						NewString: 你看过
 					}
 
 					13: {
 						OldString: "'s Gorbledden? It looks beautiful."
-						NewString: "'s Gorbledden? It looks beautiful."
+						NewString: 的Gorbledden吗? 那看起来真美丽.
 					}
 
 					14: {
 						OldString: The others didn't deserve my genius anyway.
-						NewString: The others didn't deserve my genius anyway.
+						NewString: 其他人本来就配不上我的才华.
 					}
 
 					15: {
 						OldString: I'm not that bad, i've only partaken in four abductions so far. And considering i was forgotten here highly reduces the chance to increase that number.
-						NewString: I'm not that bad, i've only partaken in four abductions so far. And considering i was forgotten here highly reduces the chance to increase that number.
+						NewString: 我并没有那么坏，到目前为止我只参与了四次绑架. 再考虑到我被遗忘在这里，更加大大降低了增加这个数字的机会.
 					}
 
 					16: {
 						OldString: I got to say though, mouths still freak me out.
-						NewString: I got to say though, mouths still freak me out.
+						NewString: 我早就说了人们会大惊小怪.
 					}
 
 					17: {
 						OldString: "Do you think "
-						NewString: "Do you think "
+						NewString: 你觉得
 					}
 
 					18: {
 						OldString: " knows how to please Ares?"
-						NewString: " knows how to please Ares?"
+						NewString: 知道如何让阿瑞斯满意吗
 					}
 				}
 
@@ -616,12 +616,12 @@ ForceLocalizations: {
 				SetChatButtons: {
 					1: {
 						OldString: Shop(Mounts & Keys)
-						NewString: Shop(Mounts & Keys)
+						NewString: 商店(坐骑&生物群系钥匙)
 					}
 
 					2: {
 						OldString: Shop(Expert Drops)
-						NewString: Shop(Expert Drops)
+						NewString: 商店(专家掉落物)
 					}
 				}
 			}
@@ -630,87 +630,87 @@ ForceLocalizations: {
 				GetChat: {
 					1: {
 						OldString: Are you trying to say I belong here because I'm old?
-						NewString: Are you trying to say I belong here because I'm old?
+						NewString: 你是想说我属于这里是因为我老了吗？
 					}
 
 					2: {
 						OldString: Those are people who told me I lived too dangerously. And look at me alive and well.
-						NewString: Those are people who told me I lived too dangerously. And look at me alive and well.
+						NewString: 那些人告诉我，我生活的方式太危险了. 可是看看，我明明活得好好的.
 					}
 
 					3: {
 						OldString: Don't bother me right now!
-						NewString: Don't bother me right now!
+						NewString: 现在别打扰我！
 					}
 
 					4: {
 						OldString: Scram if you're not buying anthing!
-						NewString: Scram if you're not buying anthing!
+						NewString: 如果你不买东西，就尖叫吧！
 					}
 
 					5: {
 						OldString: Me? Cold? No, I just have something to do in my house.
-						NewString: Me? Cold? No, I just have something to do in my house.
+						NewString: 我？刻薄？不，我只是在家里有事要做.
 					}
 
 					6: {
 						OldString: When I was at your age, I ran around without a shirt in this weather.
-						NewString: When I was at your age, I ran around without a shirt in this weather.
+						NewString: 在我像你这么大的时候，即使是这种天气，我也不穿衬衫到处跑.
 					}
 
 					7: {
 						OldString: I have been hit by lightnings 3 times, but I survived.
-						NewString: I have been hit by lightnings 3 times, but I survived.
+						NewString: 我被闪电击中了三次，但我活了下来.
 					}
 
 					8: {
 						OldString: Weather like this makes me want to down a bottle of whiskey.
-						NewString: Weather like this makes me want to down a bottle of whiskey.
+						NewString: 这样的天气让我想来一瓶威士忌.
 					}
 
 					9: {
 						OldString: Get stronger so I can sell more expensive Items to you.
-						NewString: Get stronger so I can sell more expensive Items to you.
+						NewString: 变得更强壮吧，这样我就可以把更贵的东西卖给你.
 					}
 
 					10: {
 						OldString: Don't ask me how I got my hands on these.
-						NewString: Don't ask me how I got my hands on these.
+						NewString: 别问我是怎么弄到这些的.
 					}
 
 					11: {
 						OldString: Hey kid, do you wanna buy some illegal summons?
-						NewString: Hey kid, do you wanna buy some illegal summons?
+						NewString: 嘿，孩子，你想买一些非法传票吗？
 					}
 
 					12: {
 						OldString: When I was at your age.. Wait, come back!
-						NewString: When I was at your age.. Wait, come back!
+						NewString: 当我在你这个年纪的时候. . 等等，回来！
 					}
 
 					13: {
 						OldString: Ah good ol' times. Oh, do you wanna buy something?
-						NewString: Ah good ol' times. Oh, do you wanna buy something?
+						NewString: 啊，美好的时光. 哦，你想买点什么吗？
 					}
 
 					14: {
 						OldString: I know i look younger than i am. I'll tell you my secret, it's called "familiar wig".
-						NewString: I know i look younger than i am. I'll tell you my secret, it's called "familiar wig".
+						NewString: 我知道我看起来比实际年龄更小. 我告诉秘密吧，它被称为“便装假发”.
 					}
 
 					15: {
 						OldString: I'm not THAT old.
-						NewString: I'm not THAT old.
+						NewString: 我 没 那 么 老
 					}
 
 					16: {
 						OldString: You kids and your Luminite weapons got nothing on my Night's Edge. What? Oh shut up about the numbers, you know that's too high for me.
-						NewString: You kids and your Luminite weapons got nothing on my Night's Edge. What? Oh shut up about the numbers, you know that's too high for me.
+						NewString: 你们这些孩子和你们的夜明武器在我的永夜刃上什么都没有得到. 什么？哦，别再说这些数字了，你知道这对我来说太高了.
 					}
 
 					17: {
 						OldString: " always tries to confuse me with her tech talk. Like, stop trying to explain how a TV remote works, you know that's too complicated for me!"
-						NewString: " always tries to confuse me with her tech talk. Like, stop trying to explain how a TV remote works, you know that's too complicated for me!"
+						NewString: 总是试图用她的科技演讲来混淆我. 比如，别再解释电视遥控器的工作原理了，你知道这对我来说太复杂了！
 					}
 				}
 
@@ -724,12 +724,12 @@ ForceLocalizations: {
 				SetChatButtons: {
 					1: {
 						OldString: Shop(Summons)
-						NewString: Shop(Summons)
+						NewString: 商店(敌怪召唤物)
 					}
 
 					2: {
 						OldString: Shop(Rare Drops)
-						NewString: Shop(Rare Drops)
+						NewString: 商店(稀有掉落物)
 					}
 				}
 			}
@@ -738,109 +738,109 @@ ForceLocalizations: {
 				SetChatButtons: {
 					1: {
 						OldString: Shop(Environment)
-						NewString: Shop(Environment)
+						NewString: 商店(环境)
 					}
 
 					2: {
 						OldString: Shop(Boss/Event)
-						NewString: Shop(Boss/Event)
+						NewString: 商店(Boss/事件)
 					}
 
 					3: {
 						OldString: Shop(Otherworld)
-						NewString: Shop(Otherworld)
+						NewString: 商店(异界)
 					}
 
 					4: {
 						OldString: Cycle Shop
-						NewString: Cycle Shop
+						NewString: 切换商店
 					}
 				}
 
 				GetChat: {
 					1: {
 						OldString: Maybe I can make the G dissapear from grave if I play music real loud.
-						NewString: Maybe I can make the G dissapear from grave if I play music real loud.
+						NewString: 如果我大声播放Orangestar的音乐，也许我可以让G从坟墓中消失.
 					}
 
 					2: {
 						OldString: I said "RAVE" not "GRAVE"!!
-						NewString: I said "RAVE" not "GRAVE"!!
+						NewString: 我说的是“Orangestar”，不是“Miku”！！
 					}
 
 					3: {
 						OldString: I spend last night making a new party music for THIS party.
-						NewString: I spend last night making a new party music for THIS party.
+						NewString: 我昨晚为这个聚会创作了一首新的派对音乐. 是的，从Orangestar那得来的灵感！
 					}
 
 					4: {
 						OldString: The sound of rain makes me feel comfortable.
-						NewString: The sound of rain makes me feel comfortable.
+						NewString: 雨声让我感觉很舒服. 就像在听Orangestar的《雨き声残響》
 					}
 
 					5: {
 						OldString: *gasp* I left my books outside!
-						NewString: *gasp* I left my books outside!
+						NewString: *呼* 我把Orangestar的签名在外面了！
 					}
 
 					6: {
 						OldString: I don't like that I have to close the windows when it's windy.
-						NewString: I don't like that I have to close the windows when it's windy.
+						NewString: 我不喜欢刮风的时候关上窗户. 我喜欢听Orangestar的《白南風》，虽然这没有什么关系
 					}
 
 					7: {
 						OldString: Wind sounds quite scary, but the music does not!
-						NewString: Wind sounds quite scary, but the music does not!
+						NewString: 风听起来很可怕，但Orangestar的音乐并不可怕！
 					}
 
 					8: {
 						OldString: I can't record anything right now...
-						NewString: I can't record anything right now...
+						NewString: 我现在无法录制Orangestar的音频. . .
 					}
 
 					9: {
 						OldString: *thunder* W...What? What did you say?
-						NewString: *thunder* W...What? What did you say?
+						NewString: *轰隆隆* 你...你说什么？Orangestar喜欢我做的音乐？
 					}
 
 					10: {
 						OldString: You seem to have a great taste in music.
-						NewString: You seem to have a great taste in music.
+						NewString: 你在听Orangestar？很有品味！
 					}
 
 					11: {
 						OldString: (She seems to be too focused on the music)
-						NewString: (She seems to be too focused on the music)
+						NewString: （她似乎太专注于Orangestar的音乐了）
 					}
 
 					12: {
 						OldString: I've lost my sheets. Well, I can just make another pile.
-						NewString: I've lost my sheets. Well, I can just make another pile.
+						NewString: 我的床单丢了. 好吧，听一首Orangestar的音乐或许就能找到了
 					}
 
 					13: {
 						OldString: I can only sell music boxes but not the instruments. I have to use them myself!
-						NewString: I can only sell music boxes but not the instruments. I have to use them myself!
+						NewString: 我只能卖音乐盒，不能卖乐器. Orangestar说我必须亲自使用它们！
 					}
 
 					14: {
 						OldString: Did you actually get the legendary ham-axe-guitar thingy? That's so cool!
-						NewString: Did you actually get the legendary ham-axe-guitar thingy? That's so cool!
+						NewString: 你真的得到了传说中的Orangestar用过的火腿斧头吉他吗？太酷了！
 					}
 
 					15: {
 						OldString: According to a legend, there is a legendary guitar that can be used as a hammer? What kind of guitar is that?
-						NewString: According to a legend, there is a legendary guitar that can be used as a hammer? What kind of guitar is that?
+						NewString: 据传说，Orangestar有一把传奇吉他可以当锤子用吗？那是什么吉他？
 					}
 
 					16: {
 						OldString: The guitar that can call upon the stars is actually real? Can you play it for me?
-						NewString: The guitar that can call upon the stars is actually real? Can you play it for me?
+						NewString: 能召唤Orangestar的吉他真的是真的吗？你能为我演奏吗？
 					}
 
 					17: {
 						OldString: I heard that a good enough guitarist can literally call upon the stars. I think it's just a rumor.
-						NewString: I heard that a good enough guitarist can literally call upon the stars. I think it's just a rumor.
+						NewString: 我听说一个足够好的吉他手可以召唤Orangestar. 我认为这只是一个谣言.
 					}
 				}
 
